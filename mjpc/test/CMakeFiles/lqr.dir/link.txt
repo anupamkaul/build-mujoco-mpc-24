@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/liblqr.a CMakeFiles/lqr.dir/lqr.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/liblqr.a

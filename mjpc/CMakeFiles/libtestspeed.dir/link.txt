@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../lib/liblibtestspeed.a CMakeFiles/libtestspeed.dir/testspeed_app.cc.o CMakeFiles/libtestspeed.dir/testspeed.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../lib/liblibtestspeed.a

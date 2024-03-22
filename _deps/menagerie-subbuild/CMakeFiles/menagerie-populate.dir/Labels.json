@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/CMakeFiles/menagerie-populate"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/CMakeFiles/menagerie-populate.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/CMakeFiles/menagerie-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-build.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-download.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-install.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-test.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-subbuild/menagerie-populate-prefix/src/menagerie-populate-stamp/menagerie-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"menagerie-populate"
+		],
+		"name" : "menagerie-populate"
+	}
+}

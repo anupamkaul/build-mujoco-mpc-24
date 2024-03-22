@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libabsl_cord.a CMakeFiles/cord.dir/cord.cc.o CMakeFiles/cord.dir/cord_analysis.cc.o CMakeFiles/cord.dir/cord_buffer.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libabsl_cord.a
