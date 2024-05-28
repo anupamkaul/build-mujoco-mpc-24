@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src/glm")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src/glm")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glm" TYPE FILE FILES
-    "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/lib/cmake/glm/glmConfig.cmake"
-    "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/glmConfigVersion.cmake"
+    "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/lib/cmake/glm/glmConfig.cmake"
+    "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/glmConfigVersion.cmake"
     )
 endif()
 
@@ -52,7 +52,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets.cmake"
-         "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/CMakeFiles/Export/820b120f1c4a30a4249350d158e86720/glmTargets.cmake")
+         "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/CMakeFiles/Export/820b120f1c4a30a4249350d158e86720/glmTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -65,17 +65,17 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glm" TYPE FILE FILES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/CMakeFiles/Export/820b120f1c4a30a4249350d158e86720/glmTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glm" TYPE FILE FILES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/CMakeFiles/Export/820b120f1c4a30a4249350d158e86720/glmTargets.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/glm.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/glm.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/glm/cmake_install.cmake")
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/glm/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/cmake_install.cmake")
 
 endif()
 

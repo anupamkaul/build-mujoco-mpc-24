@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(glm_lib-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/g-truc/glm.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "89e52e327d7a3ae61eb402850ba36ac4dd111987"
-                    SOURCE_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src"
-                    BINARY_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build"
+                    SOURCE_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src"
+                    BINARY_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

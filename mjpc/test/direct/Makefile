@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/direct//CMakeFiles/progress.marks
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/direct//CMakeFiles/progress.marks
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/clean
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mjpc/test/direct/CMakeFiles/direct_force_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_force_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_force_test.dir/rule
 .PHONY : mjpc/test/direct/CMakeFiles/direct_force_test.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ direct_force_test: mjpc/test/direct/CMakeFiles/direct_force_test.dir/rule
 
 # fast build rule for target.
 direct_force_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/build
 .PHONY : direct_force_test/fast
 
 # Convenience name for target.
 mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/rule
 .PHONY : mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ direct_parameter_test: mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/rul
 
 # fast build rule for target.
 direct_parameter_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build
 .PHONY : direct_parameter_test/fast
 
 # Convenience name for target.
 mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/rule
 .PHONY : mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ direct_optimize_test: mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/rule
 
 # fast build rule for target.
 direct_optimize_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build
 .PHONY : direct_optimize_test/fast
 
 # Convenience name for target.
 mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/rule
 .PHONY : mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/rule
 
 # Convenience name for target.
@@ -215,12 +215,12 @@ direct_sensor_test: mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/rule
 
 # fast build rule for target.
 direct_sensor_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build
 .PHONY : direct_sensor_test/fast
 
 # Convenience name for target.
 mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/rule
 .PHONY : mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ direct_trajectory_test: mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/r
 
 # fast build rule for target.
 direct_trajectory_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build
 .PHONY : direct_trajectory_test/fast
 
 # Convenience name for target.
 mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/rule
 .PHONY : mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/rule
 
 # Convenience name for target.
@@ -243,7 +243,7 @@ direct_utilities_test: mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/rul
 
 # fast build rule for target.
 direct_utilities_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build
 .PHONY : direct_utilities_test/fast
 
 direct_force_test.o: direct_force_test.cc.o
@@ -251,7 +251,7 @@ direct_force_test.o: direct_force_test.cc.o
 
 # target to build an object file
 direct_force_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/direct_force_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/direct_force_test.cc.o
 .PHONY : direct_force_test.cc.o
 
 direct_force_test.i: direct_force_test.cc.i
@@ -259,7 +259,7 @@ direct_force_test.i: direct_force_test.cc.i
 
 # target to preprocess a source file
 direct_force_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/direct_force_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/direct_force_test.cc.i
 .PHONY : direct_force_test.cc.i
 
 direct_force_test.s: direct_force_test.cc.s
@@ -267,7 +267,7 @@ direct_force_test.s: direct_force_test.cc.s
 
 # target to generate assembly for a file
 direct_force_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/direct_force_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_force_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_force_test.dir/direct_force_test.cc.s
 .PHONY : direct_force_test.cc.s
 
 direct_optimize_test.o: direct_optimize_test.cc.o
@@ -275,7 +275,7 @@ direct_optimize_test.o: direct_optimize_test.cc.o
 
 # target to build an object file
 direct_optimize_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/direct_optimize_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/direct_optimize_test.cc.o
 .PHONY : direct_optimize_test.cc.o
 
 direct_optimize_test.i: direct_optimize_test.cc.i
@@ -283,7 +283,7 @@ direct_optimize_test.i: direct_optimize_test.cc.i
 
 # target to preprocess a source file
 direct_optimize_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/direct_optimize_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/direct_optimize_test.cc.i
 .PHONY : direct_optimize_test.cc.i
 
 direct_optimize_test.s: direct_optimize_test.cc.s
@@ -291,7 +291,7 @@ direct_optimize_test.s: direct_optimize_test.cc.s
 
 # target to generate assembly for a file
 direct_optimize_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/direct_optimize_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_optimize_test.dir/direct_optimize_test.cc.s
 .PHONY : direct_optimize_test.cc.s
 
 direct_parameter_test.o: direct_parameter_test.cc.o
@@ -299,7 +299,7 @@ direct_parameter_test.o: direct_parameter_test.cc.o
 
 # target to build an object file
 direct_parameter_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/direct_parameter_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/direct_parameter_test.cc.o
 .PHONY : direct_parameter_test.cc.o
 
 direct_parameter_test.i: direct_parameter_test.cc.i
@@ -307,7 +307,7 @@ direct_parameter_test.i: direct_parameter_test.cc.i
 
 # target to preprocess a source file
 direct_parameter_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/direct_parameter_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/direct_parameter_test.cc.i
 .PHONY : direct_parameter_test.cc.i
 
 direct_parameter_test.s: direct_parameter_test.cc.s
@@ -315,7 +315,7 @@ direct_parameter_test.s: direct_parameter_test.cc.s
 
 # target to generate assembly for a file
 direct_parameter_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/direct_parameter_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_parameter_test.dir/direct_parameter_test.cc.s
 .PHONY : direct_parameter_test.cc.s
 
 direct_sensor_test.o: direct_sensor_test.cc.o
@@ -323,7 +323,7 @@ direct_sensor_test.o: direct_sensor_test.cc.o
 
 # target to build an object file
 direct_sensor_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/direct_sensor_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/direct_sensor_test.cc.o
 .PHONY : direct_sensor_test.cc.o
 
 direct_sensor_test.i: direct_sensor_test.cc.i
@@ -331,7 +331,7 @@ direct_sensor_test.i: direct_sensor_test.cc.i
 
 # target to preprocess a source file
 direct_sensor_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/direct_sensor_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/direct_sensor_test.cc.i
 .PHONY : direct_sensor_test.cc.i
 
 direct_sensor_test.s: direct_sensor_test.cc.s
@@ -339,7 +339,7 @@ direct_sensor_test.s: direct_sensor_test.cc.s
 
 # target to generate assembly for a file
 direct_sensor_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/direct_sensor_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_sensor_test.dir/direct_sensor_test.cc.s
 .PHONY : direct_sensor_test.cc.s
 
 direct_trajectory_test.o: direct_trajectory_test.cc.o
@@ -347,7 +347,7 @@ direct_trajectory_test.o: direct_trajectory_test.cc.o
 
 # target to build an object file
 direct_trajectory_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/direct_trajectory_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/direct_trajectory_test.cc.o
 .PHONY : direct_trajectory_test.cc.o
 
 direct_trajectory_test.i: direct_trajectory_test.cc.i
@@ -355,7 +355,7 @@ direct_trajectory_test.i: direct_trajectory_test.cc.i
 
 # target to preprocess a source file
 direct_trajectory_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/direct_trajectory_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/direct_trajectory_test.cc.i
 .PHONY : direct_trajectory_test.cc.i
 
 direct_trajectory_test.s: direct_trajectory_test.cc.s
@@ -363,7 +363,7 @@ direct_trajectory_test.s: direct_trajectory_test.cc.s
 
 # target to generate assembly for a file
 direct_trajectory_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/direct_trajectory_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_trajectory_test.dir/direct_trajectory_test.cc.s
 .PHONY : direct_trajectory_test.cc.s
 
 direct_utilities_test.o: direct_utilities_test.cc.o
@@ -371,7 +371,7 @@ direct_utilities_test.o: direct_utilities_test.cc.o
 
 # target to build an object file
 direct_utilities_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/direct_utilities_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/direct_utilities_test.cc.o
 .PHONY : direct_utilities_test.cc.o
 
 direct_utilities_test.i: direct_utilities_test.cc.i
@@ -379,7 +379,7 @@ direct_utilities_test.i: direct_utilities_test.cc.i
 
 # target to preprocess a source file
 direct_utilities_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/direct_utilities_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/direct_utilities_test.cc.i
 .PHONY : direct_utilities_test.cc.i
 
 direct_utilities_test.s: direct_utilities_test.cc.s
@@ -387,7 +387,7 @@ direct_utilities_test.s: direct_utilities_test.cc.s
 
 # target to generate assembly for a file
 direct_utilities_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/direct_utilities_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/build.make mjpc/test/direct/CMakeFiles/direct_utilities_test.dir/direct_utilities_test.cc.s
 .PHONY : direct_utilities_test.cc.s
 
 # Help Target
@@ -437,7 +437,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

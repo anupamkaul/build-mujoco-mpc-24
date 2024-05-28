@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/simulate
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/simulate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "simulate" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/bin/simulate")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/bin/simulate")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulate" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulate")
     if(CMAKE_INSTALL_DO_STRIP)

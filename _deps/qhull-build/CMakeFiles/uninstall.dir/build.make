@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Utility rule file for uninstall.
 
@@ -67,8 +67,8 @@ include _deps/qhull-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/qhull-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/qhull-build/CMakeFiles/uninstall:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "uninstall Qhull by deleting files in install_manifest.txt"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && cat install_manifest.txt | tr -d "\r" | xargs -r rm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "uninstall Qhull by deleting files in install_manifest.txt"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && cat install_manifest.txt | tr -d "\r" | xargs -r rm
 
 uninstall: _deps/qhull-build/CMakeFiles/uninstall
 uninstall: _deps/qhull-build/CMakeFiles/uninstall.dir/build.make
@@ -79,10 +79,10 @@ _deps/qhull-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/qhull-build/CMakeFiles/uninstall.dir/build
 
 _deps/qhull-build/CMakeFiles/uninstall.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : _deps/qhull-build/CMakeFiles/uninstall.dir/clean
 
 _deps/qhull-build/CMakeFiles/uninstall.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/qhull-build/CMakeFiles/uninstall.dir/depend
 

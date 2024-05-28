@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/plugin/sdf
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/plugin/sdf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

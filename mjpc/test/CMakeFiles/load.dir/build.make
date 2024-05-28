@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include mjpc/test/CMakeFiles/load.dir/depend.make
@@ -70,18 +70,18 @@ include mjpc/test/CMakeFiles/load.dir/progress.make
 include mjpc/test/CMakeFiles/load.dir/flags.make
 
 mjpc/test/CMakeFiles/load.dir/load.cc.o: mjpc/test/CMakeFiles/load.dir/flags.make
-mjpc/test/CMakeFiles/load.dir/load.cc.o: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/load.cc
+mjpc/test/CMakeFiles/load.dir/load.cc.o: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/load.cc
 mjpc/test/CMakeFiles/load.dir/load.cc.o: mjpc/test/CMakeFiles/load.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/test/CMakeFiles/load.dir/load.cc.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/test/CMakeFiles/load.dir/load.cc.o -MF CMakeFiles/load.dir/load.cc.o.d -o CMakeFiles/load.dir/load.cc.o -c /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/load.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/test/CMakeFiles/load.dir/load.cc.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/test/CMakeFiles/load.dir/load.cc.o -MF CMakeFiles/load.dir/load.cc.o.d -o CMakeFiles/load.dir/load.cc.o -c /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/load.cc
 
 mjpc/test/CMakeFiles/load.dir/load.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/load.dir/load.cc.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/load.cc > CMakeFiles/load.dir/load.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/load.cc > CMakeFiles/load.dir/load.cc.i
 
 mjpc/test/CMakeFiles/load.dir/load.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/load.dir/load.cc.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/load.cc -o CMakeFiles/load.dir/load.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/load.cc -o CMakeFiles/load.dir/load.cc.s
 
 # Object files for target load
 load_OBJECTS = \
@@ -93,19 +93,19 @@ load_EXTERNAL_OBJECTS =
 lib/libload.a: mjpc/test/CMakeFiles/load.dir/load.cc.o
 lib/libload.a: mjpc/test/CMakeFiles/load.dir/build.make
 lib/libload.a: mjpc/test/CMakeFiles/load.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libload.a"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test && $(CMAKE_COMMAND) -P CMakeFiles/load.dir/cmake_clean_target.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libload.a"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test && $(CMAKE_COMMAND) -P CMakeFiles/load.dir/cmake_clean_target.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 mjpc/test/CMakeFiles/load.dir/build: lib/libload.a
 .PHONY : mjpc/test/CMakeFiles/load.dir/build
 
 mjpc/test/CMakeFiles/load.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test && $(CMAKE_COMMAND) -P CMakeFiles/load.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test && $(CMAKE_COMMAND) -P CMakeFiles/load.dir/cmake_clean.cmake
 .PHONY : mjpc/test/CMakeFiles/load.dir/clean
 
 mjpc/test/CMakeFiles/load.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/CMakeFiles/load.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/CMakeFiles/load.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : mjpc/test/CMakeFiles/load.dir/depend
 

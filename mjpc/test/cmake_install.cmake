@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,56 +39,56 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/direct/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/direct/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/estimator/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/estimator/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/gradient_planner/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/gradient_planner/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/ilqg_planner/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/ilqg_planner/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/planners/robust/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/planners/robust/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/sampling_planner/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/sampling_planner/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/spline/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/spline/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/state/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/state/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/tasks/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/tasks/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/utilities/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/utilities/cmake_install.cmake")
 endif()
 

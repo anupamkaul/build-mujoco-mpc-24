@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(ccd STATIC IMPORTED)
 
 set_target_properties(ccd PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src;/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src;/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src"
 )
 
 # Import target "ccd" for configuration "Release"
@@ -58,7 +58,7 @@ set_property(TARGET ccd APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ccd PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libm.tbd"
-  IMPORTED_LOCATION_RELEASE "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/lib/libccd.a"
+  IMPORTED_LOCATION_RELEASE "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/lib/libccd.a"
   )
 
 # This file does not depend on other imported targets which have

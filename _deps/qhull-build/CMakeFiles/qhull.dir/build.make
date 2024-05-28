@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include _deps/qhull-build/CMakeFiles/qhull.dir/depend.make
@@ -70,18 +70,18 @@ include _deps/qhull-build/CMakeFiles/qhull.dir/progress.make
 include _deps/qhull-build/CMakeFiles/qhull.dir/flags.make
 
 _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o: _deps/qhull-build/CMakeFiles/qhull.dir/flags.make
-_deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c
+_deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c
 _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o: _deps/qhull-build/CMakeFiles/qhull.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o -MF CMakeFiles/qhull.dir/src/qhull/unix_r.c.o.d -o CMakeFiles/qhull.dir/src/qhull/unix_r.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o -MF CMakeFiles/qhull.dir/src/qhull/unix_r.c.o.d -o CMakeFiles/qhull.dir/src/qhull/unix_r.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c
 
 _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qhull.dir/src/qhull/unix_r.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c > CMakeFiles/qhull.dir/src/qhull/unix_r.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c > CMakeFiles/qhull.dir/src/qhull/unix_r.c.i
 
 _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qhull.dir/src/qhull/unix_r.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c -o CMakeFiles/qhull.dir/src/qhull/unix_r.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/qhull/unix_r.c -o CMakeFiles/qhull.dir/src/qhull/unix_r.c.s
 
 # Object files for target qhull
 qhull_OBJECTS = \
@@ -94,18 +94,18 @@ bin/qhull: _deps/qhull-build/CMakeFiles/qhull.dir/src/qhull/unix_r.c.o
 bin/qhull: _deps/qhull-build/CMakeFiles/qhull.dir/build.make
 bin/qhull: lib/libqhullstatic_r.a
 bin/qhull: _deps/qhull-build/CMakeFiles/qhull.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../bin/qhull"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qhull.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../bin/qhull"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qhull.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/qhull-build/CMakeFiles/qhull.dir/build: bin/qhull
 .PHONY : _deps/qhull-build/CMakeFiles/qhull.dir/build
 
 _deps/qhull-build/CMakeFiles/qhull.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -P CMakeFiles/qhull.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -P CMakeFiles/qhull.dir/cmake_clean.cmake
 .PHONY : _deps/qhull-build/CMakeFiles/qhull.dir/clean
 
 _deps/qhull-build/CMakeFiles/qhull.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build/CMakeFiles/qhull.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build/CMakeFiles/qhull.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/qhull-build/CMakeFiles/qhull.dir/depend
 

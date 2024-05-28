@@ -1,5 +1,5 @@
 mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o: \
-  /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm \
+  /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

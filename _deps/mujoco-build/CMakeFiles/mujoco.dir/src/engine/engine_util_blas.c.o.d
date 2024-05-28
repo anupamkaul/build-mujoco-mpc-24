@@ -1,6 +1,6 @@
 _deps/mujoco-build/CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o: \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/engine/engine_util_blas.c \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/engine/engine_util_blas.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/engine/engine_util_blas.c \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/engine/engine_util_blas.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_symbol_aliasing.h \
@@ -9,8 +9,8 @@ _deps/mujoco-build/CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjexport.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjtnum.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjexport.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjtnum.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types.h \

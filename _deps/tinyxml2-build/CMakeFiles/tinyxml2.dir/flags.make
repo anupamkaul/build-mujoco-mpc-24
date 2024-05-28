@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-src
+CXX_INCLUDES = -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-src
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mmacosx-version-min=11 -Werror=partial-availability -Werror=unguarded-availability
+CXX_FLAGS = -O3 -DNDEBUG -std=c++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mmacosx-version-min=11 -Werror=partial-availability -Werror=unguarded-availability
 

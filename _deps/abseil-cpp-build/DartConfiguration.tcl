@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-src
-BuildDirectory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-build
+SourceDirectory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-src
+BuildDirectory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/Cellar/cmake/3.28.1/bin/cmake" "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-src"
+ConfigureCommand: "/usr/local/Cellar/cmake/3.28.1/bin/cmake" "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-src"
 MakeCommand: /usr/local/Cellar/cmake/3.28.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

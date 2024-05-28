@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(menagerie-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/google-deepmind/mujoco_menagerie.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "8a5f659ac3607dc5adb988e0187f683fe0f4edf4"
-                    SOURCE_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-src"
-                    BINARY_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/menagerie-build"
+                    SOURCE_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/menagerie-src"
+                    BINARY_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/menagerie-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

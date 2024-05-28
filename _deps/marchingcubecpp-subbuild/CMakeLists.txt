@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(marchingcubecpp-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/aparis69/MarchingCubeCpp.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "5b79e5d6bded086a0abe276a4b5a69fc17ae9bf1"
-                    SOURCE_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src"
-                    BINARY_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-build"
+                    SOURCE_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src"
+                    BINARY_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

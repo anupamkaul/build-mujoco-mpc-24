@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include mjpc/CMakeFiles/mjpc.dir/depend.make
@@ -70,32 +70,32 @@ include mjpc/CMakeFiles/mjpc.dir/progress.make
 include mjpc/CMakeFiles/mjpc.dir/flags.make
 
 mjpc/CMakeFiles/mjpc.dir/main.cc.o: mjpc/CMakeFiles/mjpc.dir/flags.make
-mjpc/CMakeFiles/mjpc.dir/main.cc.o: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/main.cc
+mjpc/CMakeFiles/mjpc.dir/main.cc.o: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/main.cc
 mjpc/CMakeFiles/mjpc.dir/main.cc.o: mjpc/CMakeFiles/mjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/CMakeFiles/mjpc.dir/main.cc.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/CMakeFiles/mjpc.dir/main.cc.o -MF CMakeFiles/mjpc.dir/main.cc.o.d -o CMakeFiles/mjpc.dir/main.cc.o -c /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/CMakeFiles/mjpc.dir/main.cc.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/CMakeFiles/mjpc.dir/main.cc.o -MF CMakeFiles/mjpc.dir/main.cc.o.d -o CMakeFiles/mjpc.dir/main.cc.o -c /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/main.cc
 
 mjpc/CMakeFiles/mjpc.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mjpc.dir/main.cc.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/main.cc > CMakeFiles/mjpc.dir/main.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/main.cc > CMakeFiles/mjpc.dir/main.cc.i
 
 mjpc/CMakeFiles/mjpc.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mjpc.dir/main.cc.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/main.cc -o CMakeFiles/mjpc.dir/main.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/main.cc -o CMakeFiles/mjpc.dir/main.cc.s
 
 mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o: mjpc/CMakeFiles/mjpc.dir/flags.make
-mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm
+mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm
 mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o: mjpc/CMakeFiles/mjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building OBJCXX object mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) -x objective-c++ $(OBJCXX_FLAGS) -MD -MT mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o -MF CMakeFiles/mjpc.dir/macos_gui.mm.o.d -o CMakeFiles/mjpc.dir/macos_gui.mm.o -c /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building OBJCXX object mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) -x objective-c++ $(OBJCXX_FLAGS) -MD -MT mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o -MF CMakeFiles/mjpc.dir/macos_gui.mm.o.d -o CMakeFiles/mjpc.dir/macos_gui.mm.o -c /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm
 
 mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJCXX source to CMakeFiles/mjpc.dir/macos_gui.mm.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm > CMakeFiles/mjpc.dir/macos_gui.mm.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm > CMakeFiles/mjpc.dir/macos_gui.mm.i
 
 mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJCXX source to assembly CMakeFiles/mjpc.dir/macos_gui.mm.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm -o CMakeFiles/mjpc.dir/macos_gui.mm.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm -o CMakeFiles/mjpc.dir/macos_gui.mm.s
 
 # Object files for target mjpc
 mjpc_OBJECTS = \
@@ -189,18 +189,18 @@ bin/mjpc: lib/libglfw3.a
 bin/mjpc: lib/liblodepng.a
 bin/mjpc: lib/libmujoco.3.1.3.dylib
 bin/mjpc: mjpc/CMakeFiles/mjpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/mjpc"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mjpc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/mjpc"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mjpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 mjpc/CMakeFiles/mjpc.dir/build: bin/mjpc
 .PHONY : mjpc/CMakeFiles/mjpc.dir/build
 
 mjpc/CMakeFiles/mjpc.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -P CMakeFiles/mjpc.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -P CMakeFiles/mjpc.dir/cmake_clean.cmake
 .PHONY : mjpc/CMakeFiles/mjpc.dir/clean
 
 mjpc/CMakeFiles/mjpc.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/CMakeFiles/mjpc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/CMakeFiles/mjpc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : mjpc/CMakeFiles/mjpc.dir/depend
 

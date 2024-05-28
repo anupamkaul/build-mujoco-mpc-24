@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/gradient_planner//CMakeFiles/progress.marks
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/gradient_planner//CMakeFiles/progress.marks
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/clean
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/rule
 .PHONY : mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ gradient_planner_test: mjpc/test/gradient_planner/CMakeFiles/gradient_planner_te
 
 # fast build rule for target.
 gradient_planner_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build
 .PHONY : gradient_planner_test/fast
 
 # Convenience name for target.
 mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/rule
 .PHONY : mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ gradient_test: mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/rule
 
 # fast build rule for target.
 gradient_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build
 .PHONY : gradient_test/fast
 
 # Convenience name for target.
 mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/rule
 .PHONY : mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ zero_test: mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/rule
 
 # fast build rule for target.
 zero_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build
 .PHONY : zero_test/fast
 
 # Convenience name for target.
 mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/rule
 .PHONY : mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/rule
 
 # Convenience name for target.
@@ -215,12 +215,12 @@ linear_test: mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/rule
 
 # fast build rule for target.
 linear_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build
 .PHONY : linear_test/fast
 
 # Convenience name for target.
 mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/rule
 .PHONY : mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/rule
 
 # Convenience name for target.
@@ -229,7 +229,7 @@ cubic_test: mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/rule
 
 # fast build rule for target.
 cubic_test/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build
 .PHONY : cubic_test/fast
 
 cubic_test.o: cubic_test.cc.o
@@ -237,7 +237,7 @@ cubic_test.o: cubic_test.cc.o
 
 # target to build an object file
 cubic_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o
 .PHONY : cubic_test.cc.o
 
 cubic_test.i: cubic_test.cc.i
@@ -245,7 +245,7 @@ cubic_test.i: cubic_test.cc.i
 
 # target to preprocess a source file
 cubic_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.i
 .PHONY : cubic_test.cc.i
 
 cubic_test.s: cubic_test.cc.s
@@ -253,7 +253,7 @@ cubic_test.s: cubic_test.cc.s
 
 # target to generate assembly for a file
 cubic_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.s
 .PHONY : cubic_test.cc.s
 
 gradient_planner_test.o: gradient_planner_test.cc.o
@@ -261,7 +261,7 @@ gradient_planner_test.o: gradient_planner_test.cc.o
 
 # target to build an object file
 gradient_planner_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/gradient_planner_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/gradient_planner_test.cc.o
 .PHONY : gradient_planner_test.cc.o
 
 gradient_planner_test.i: gradient_planner_test.cc.i
@@ -269,7 +269,7 @@ gradient_planner_test.i: gradient_planner_test.cc.i
 
 # target to preprocess a source file
 gradient_planner_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/gradient_planner_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/gradient_planner_test.cc.i
 .PHONY : gradient_planner_test.cc.i
 
 gradient_planner_test.s: gradient_planner_test.cc.s
@@ -277,7 +277,7 @@ gradient_planner_test.s: gradient_planner_test.cc.s
 
 # target to generate assembly for a file
 gradient_planner_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/gradient_planner_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_planner_test.dir/gradient_planner_test.cc.s
 .PHONY : gradient_planner_test.cc.s
 
 gradient_test.o: gradient_test.cc.o
@@ -285,7 +285,7 @@ gradient_test.o: gradient_test.cc.o
 
 # target to build an object file
 gradient_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/gradient_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/gradient_test.cc.o
 .PHONY : gradient_test.cc.o
 
 gradient_test.i: gradient_test.cc.i
@@ -293,7 +293,7 @@ gradient_test.i: gradient_test.cc.i
 
 # target to preprocess a source file
 gradient_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/gradient_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/gradient_test.cc.i
 .PHONY : gradient_test.cc.i
 
 gradient_test.s: gradient_test.cc.s
@@ -301,7 +301,7 @@ gradient_test.s: gradient_test.cc.s
 
 # target to generate assembly for a file
 gradient_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/gradient_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/gradient_test.dir/gradient_test.cc.s
 .PHONY : gradient_test.cc.s
 
 linear_test.o: linear_test.cc.o
@@ -309,7 +309,7 @@ linear_test.o: linear_test.cc.o
 
 # target to build an object file
 linear_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/linear_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/linear_test.cc.o
 .PHONY : linear_test.cc.o
 
 linear_test.i: linear_test.cc.i
@@ -317,7 +317,7 @@ linear_test.i: linear_test.cc.i
 
 # target to preprocess a source file
 linear_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/linear_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/linear_test.cc.i
 .PHONY : linear_test.cc.i
 
 linear_test.s: linear_test.cc.s
@@ -325,7 +325,7 @@ linear_test.s: linear_test.cc.s
 
 # target to generate assembly for a file
 linear_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/linear_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/linear_test.dir/linear_test.cc.s
 .PHONY : linear_test.cc.s
 
 zero_test.o: zero_test.cc.o
@@ -333,7 +333,7 @@ zero_test.o: zero_test.cc.o
 
 # target to build an object file
 zero_test.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o
 .PHONY : zero_test.cc.o
 
 zero_test.i: zero_test.cc.i
@@ -341,7 +341,7 @@ zero_test.i: zero_test.cc.i
 
 # target to preprocess a source file
 zero_test.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.i
 .PHONY : zero_test.cc.i
 
 zero_test.s: zero_test.cc.s
@@ -349,7 +349,7 @@ zero_test.s: zero_test.cc.s
 
 # target to generate assembly for a file
 zero_test.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/build.make mjpc/test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.s
 .PHONY : zero_test.cc.s
 
 # Help Target
@@ -395,7 +395,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/main.cc" "mjpc/CMakeFiles/mjpc.dir/main.cc.o" "gcc" "mjpc/CMakeFiles/mjpc.dir/main.cc.o.d"
-  "/Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm" "mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o" "gcc" "mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o.d"
+  "/Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/main.cc" "mjpc/CMakeFiles/mjpc.dir/main.cc.o" "gcc" "mjpc/CMakeFiles/mjpc.dir/main.cc.o.d"
+  "/Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/macos_gui.mm" "mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o" "gcc" "mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

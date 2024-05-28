@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build/libs/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build/libs/cmake_install.cmake")
 endif()
 

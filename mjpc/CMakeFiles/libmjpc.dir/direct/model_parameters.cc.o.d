@@ -1,6 +1,6 @@
 mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.o: \
-  /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/direct/model_parameters.cc \
-  /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/../mjpc/direct/model_parameters.h \
+  /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/direct/model_parameters.cc \
+  /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/../mjpc/direct/model_parameters.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -845,14 +845,14 @@ mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mujoco.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjexport.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjdata.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjtnum.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjmodel.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjthread.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjmacro.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjplugin.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjvisualize.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjrender.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjui.h
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mujoco.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjexport.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjdata.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjtnum.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjmodel.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjthread.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjmacro.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjplugin.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjvisualize.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjrender.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjui.h

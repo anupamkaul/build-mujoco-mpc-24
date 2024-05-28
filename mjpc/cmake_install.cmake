@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/tasks/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/tasks/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/cmake_install.cmake")
 endif()
 

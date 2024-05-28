@@ -5,13 +5,13 @@
 # compile OBJC with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/include -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src
+C_INCLUDES = -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/include -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src
 
-C_FLAGS = -O3 -DNDEBUG -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fPIC -fvisibility=hidden -fdata-sections -ffunction-sections -mmacosx-version-min=11 -Werror=partial-availability -Werror=unguarded-availability -Wall
+C_FLAGS = -O3 -DNDEBUG -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fvisibility=hidden -fdata-sections -ffunction-sections -mmacosx-version-min=11 -Werror=partial-availability -Werror=unguarded-availability -Wall
 
 OBJC_DEFINES = -D_GLFW_USE_CONFIG_H
 
-OBJC_INCLUDES = -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/include -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src
+OBJC_INCLUDES = -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/include -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src
 
-OBJC_FLAGS = -O3 -DNDEBUG -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fPIC -fdata-sections -ffunction-sections -mmacosx-version-min=11 -Werror=partial-availability -Werror=unguarded-availability -Wall
+OBJC_FLAGS = -O3 -DNDEBUG -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fdata-sections -ffunction-sections -mmacosx-version-min=11 -Werror=partial-availability -Werror=unguarded-availability -Wall
 

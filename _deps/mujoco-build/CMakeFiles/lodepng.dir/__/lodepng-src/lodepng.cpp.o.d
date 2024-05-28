@@ -1,6 +1,6 @@
 _deps/mujoco-build/CMakeFiles/lodepng.dir/__/lodepng-src/lodepng.cpp.o: \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-src/lodepng.cpp \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-src/lodepng.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-src/lodepng.cpp \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-src/lodepng.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site \

@@ -54,7 +54,7 @@ unset(_cmake_expected_targets)
 add_library(glm INTERFACE IMPORTED)
 
 set_target_properties(glm PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src"
 )
 
 # This file does not depend on other imported targets which have

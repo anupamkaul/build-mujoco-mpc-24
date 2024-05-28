@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Utility rule file for copy_resources.
 
@@ -67,8 +67,8 @@ include mjpc/tasks/CMakeFiles/copy_resources.dir/compiler_depend.make
 include mjpc/tasks/CMakeFiles/copy_resources.dir/progress.make
 
 mjpc/tasks/CMakeFiles/copy_resources:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying tasks into binary directory"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/tasks && /usr/local/Cellar/cmake/3.28.1/bin/cmake -E copy_directory /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/tasks /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/tasks
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying tasks into binary directory"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/tasks && /usr/local/Cellar/cmake/3.28.1/bin/cmake -E copy_directory /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/tasks /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/tasks
 
 copy_resources: mjpc/tasks/CMakeFiles/copy_resources
 copy_resources: mjpc/tasks/CMakeFiles/copy_resources.dir/build.make
@@ -79,10 +79,10 @@ mjpc/tasks/CMakeFiles/copy_resources.dir/build: copy_resources
 .PHONY : mjpc/tasks/CMakeFiles/copy_resources.dir/build
 
 mjpc/tasks/CMakeFiles/copy_resources.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/tasks && $(CMAKE_COMMAND) -P CMakeFiles/copy_resources.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/tasks && $(CMAKE_COMMAND) -P CMakeFiles/copy_resources.dir/cmake_clean.cmake
 .PHONY : mjpc/tasks/CMakeFiles/copy_resources.dir/clean
 
 mjpc/tasks/CMakeFiles/copy_resources.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/tasks /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/tasks /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/tasks/CMakeFiles/copy_resources.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/tasks /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/tasks /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/tasks/CMakeFiles/copy_resources.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : mjpc/tasks/CMakeFiles/copy_resources.dir/depend
 

@@ -50,14 +50,14 @@ unset(_cmake_expected_targets)
 add_library(tinyobjloader STATIC IMPORTED)
 
 set_target_properties(tinyobjloader PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyobjloader-src"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyobjloader-src"
 )
 
 # Import target "tinyobjloader" for configuration "Release"
 set_property(TARGET tinyobjloader APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(tinyobjloader PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/lib/libtinyobjloader.a"
+  IMPORTED_LOCATION_RELEASE "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/lib/libtinyobjloader.a"
   )
 
 # This file does not depend on other imported targets which have

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include _deps/sdflib-build/CMakeFiles/SdfLib.dir/depend.make
@@ -70,186 +70,186 @@ include _deps/sdflib-build/CMakeFiles/SdfLib.dir/progress.make
 include _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/ExactOctreeSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp > CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp > CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfComputeShader.cpp -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp > CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp > CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/OctreeSdfUniform.cpp -o CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/RealSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp > CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp > CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp -o CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/SdfFunction.cpp -o CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp > CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdf.cpp -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o -MF CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o.d -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp > CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp > CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/sdf/UniformGridSdfOctree.cpp -o CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp > CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp > CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp -o CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/GJK.cpp -o CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp > CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp > CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp -o CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Mesh.cpp -o CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp > CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp > CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp -o CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/PrimitivesFactory.cpp -o CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp > CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp > CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp -o CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/Timer.cpp -o CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.s
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/flags.make
-_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp
+_deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o: _deps/sdflib-build/CMakeFiles/SdfLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o -MF CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o.d -o CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp > CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp > CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.i
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp -o CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src/src/utils/TriangleUtils.cpp -o CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.s
 
 # Object files for target SdfLib
 SdfLib_OBJECTS = \
@@ -285,19 +285,19 @@ lib/libSdfLib.a: _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o
 lib/libSdfLib.a: _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o
 lib/libSdfLib.a: _deps/sdflib-build/CMakeFiles/SdfLib.dir/build.make
 lib/libSdfLib.a: _deps/sdflib-build/CMakeFiles/SdfLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library ../../lib/libSdfLib.a"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && $(CMAKE_COMMAND) -P CMakeFiles/SdfLib.dir/cmake_clean_target.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SdfLib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library ../../lib/libSdfLib.a"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && $(CMAKE_COMMAND) -P CMakeFiles/SdfLib.dir/cmake_clean_target.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SdfLib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/build: lib/libSdfLib.a
 .PHONY : _deps/sdflib-build/CMakeFiles/SdfLib.dir/build
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && $(CMAKE_COMMAND) -P CMakeFiles/SdfLib.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build && $(CMAKE_COMMAND) -P CMakeFiles/SdfLib.dir/cmake_clean.cmake
 .PHONY : _deps/sdflib-build/CMakeFiles/SdfLib.dir/clean
 
 _deps/sdflib-build/CMakeFiles/SdfLib.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/sdflib-build/CMakeFiles/SdfLib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/sdflib-build/CMakeFiles/SdfLib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/sdflib-build/CMakeFiles/SdfLib.dir/depend
 

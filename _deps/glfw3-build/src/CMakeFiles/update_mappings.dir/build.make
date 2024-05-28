@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/compiler_depend.mak
 include _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/progress.make
 
 _deps/glfw3-build/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src && /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src && /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: _deps/glfw3-build/src/CMakeFiles/update_mappings
 update_mappings: _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/build
 
 _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/clean
 
 _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/glfw3-build/src/CMakeFiles/update_mappings.dir/depend
 

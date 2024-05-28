@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/local/Cellar/cmake/3.28.1/bin/cmake;-P;/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-subbuild/glm_lib-populate-prefix/tmp/glm_lib-populate-gitclone.cmake
-source_dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src
-work_dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps
+command=/usr/local/Cellar/cmake/3.28.1/bin/cmake;-P;/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-subbuild/glm_lib-populate-prefix/tmp/glm_lib-populate-gitclone.cmake
+source_dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src
+work_dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps
 repository=https://github.com/g-truc/glm.git
 remote=origin
 init_submodules=TRUE

@@ -1,8 +1,8 @@
 _deps/mujoco-build/CMakeFiles/mujoco.dir/src/thread/thread_task.cc.o: \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/thread/thread_task.cc \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/thread/thread_task.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjexport.h \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjthread.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/thread/thread_task.cc \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/src/thread/thread_task.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjexport.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include/mujoco/mjthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

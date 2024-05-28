@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-build/plugin/sdf//CMakeFiles/progress.marks
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-build/plugin/sdf//CMakeFiles/progress.marks
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/clean
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/rule
 .PHONY : _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/rule
 
 # Convenience name for target.
@@ -173,7 +173,7 @@ sdf: _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/rule
 
 # fast build rule for target.
 sdf/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build
 .PHONY : sdf/fast
 
 bolt.o: bolt.cc.o
@@ -181,7 +181,7 @@ bolt.o: bolt.cc.o
 
 # target to build an object file
 bolt.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.o
 .PHONY : bolt.cc.o
 
 bolt.i: bolt.cc.i
@@ -189,7 +189,7 @@ bolt.i: bolt.cc.i
 
 # target to preprocess a source file
 bolt.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.i
 .PHONY : bolt.cc.i
 
 bolt.s: bolt.cc.s
@@ -197,7 +197,7 @@ bolt.s: bolt.cc.s
 
 # target to generate assembly for a file
 bolt.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.s
 .PHONY : bolt.cc.s
 
 bowl.o: bowl.cc.o
@@ -205,7 +205,7 @@ bowl.o: bowl.cc.o
 
 # target to build an object file
 bowl.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.o
 .PHONY : bowl.cc.o
 
 bowl.i: bowl.cc.i
@@ -213,7 +213,7 @@ bowl.i: bowl.cc.i
 
 # target to preprocess a source file
 bowl.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.i
 .PHONY : bowl.cc.i
 
 bowl.s: bowl.cc.s
@@ -221,7 +221,7 @@ bowl.s: bowl.cc.s
 
 # target to generate assembly for a file
 bowl.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.s
 .PHONY : bowl.cc.s
 
 gear.o: gear.cc.o
@@ -229,7 +229,7 @@ gear.o: gear.cc.o
 
 # target to build an object file
 gear.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/gear.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/gear.cc.o
 .PHONY : gear.cc.o
 
 gear.i: gear.cc.i
@@ -237,7 +237,7 @@ gear.i: gear.cc.i
 
 # target to preprocess a source file
 gear.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/gear.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/gear.cc.i
 .PHONY : gear.cc.i
 
 gear.s: gear.cc.s
@@ -245,7 +245,7 @@ gear.s: gear.cc.s
 
 # target to generate assembly for a file
 gear.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/gear.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/gear.cc.s
 .PHONY : gear.cc.s
 
 nut.o: nut.cc.o
@@ -253,7 +253,7 @@ nut.o: nut.cc.o
 
 # target to build an object file
 nut.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/nut.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/nut.cc.o
 .PHONY : nut.cc.o
 
 nut.i: nut.cc.i
@@ -261,7 +261,7 @@ nut.i: nut.cc.i
 
 # target to preprocess a source file
 nut.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/nut.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/nut.cc.i
 .PHONY : nut.cc.i
 
 nut.s: nut.cc.s
@@ -269,7 +269,7 @@ nut.s: nut.cc.s
 
 # target to generate assembly for a file
 nut.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/nut.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/nut.cc.s
 .PHONY : nut.cc.s
 
 register.o: register.cc.o
@@ -277,7 +277,7 @@ register.o: register.cc.o
 
 # target to build an object file
 register.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/register.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/register.cc.o
 .PHONY : register.cc.o
 
 register.i: register.cc.i
@@ -285,7 +285,7 @@ register.i: register.cc.i
 
 # target to preprocess a source file
 register.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/register.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/register.cc.i
 .PHONY : register.cc.i
 
 register.s: register.cc.s
@@ -293,7 +293,7 @@ register.s: register.cc.s
 
 # target to generate assembly for a file
 register.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/register.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/register.cc.s
 .PHONY : register.cc.s
 
 sdf.o: sdf.cc.o
@@ -301,7 +301,7 @@ sdf.o: sdf.cc.o
 
 # target to build an object file
 sdf.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.o
 .PHONY : sdf.cc.o
 
 sdf.i: sdf.cc.i
@@ -309,7 +309,7 @@ sdf.i: sdf.cc.i
 
 # target to preprocess a source file
 sdf.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.i
 .PHONY : sdf.cc.i
 
 sdf.s: sdf.cc.s
@@ -317,7 +317,7 @@ sdf.s: sdf.cc.s
 
 # target to generate assembly for a file
 sdf.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.s
 .PHONY : sdf.cc.s
 
 sdflib.o: sdflib.cc.o
@@ -325,7 +325,7 @@ sdflib.o: sdflib.cc.o
 
 # target to build an object file
 sdflib.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.o
 .PHONY : sdflib.cc.o
 
 sdflib.i: sdflib.cc.i
@@ -333,7 +333,7 @@ sdflib.i: sdflib.cc.i
 
 # target to preprocess a source file
 sdflib.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.i
 .PHONY : sdflib.cc.i
 
 sdflib.s: sdflib.cc.s
@@ -341,7 +341,7 @@ sdflib.s: sdflib.cc.s
 
 # target to generate assembly for a file
 sdflib.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.s
 .PHONY : sdflib.cc.s
 
 torus.o: torus.cc.o
@@ -349,7 +349,7 @@ torus.o: torus.cc.o
 
 # target to build an object file
 torus.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/torus.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/torus.cc.o
 .PHONY : torus.cc.o
 
 torus.i: torus.cc.i
@@ -357,7 +357,7 @@ torus.i: torus.cc.i
 
 # target to preprocess a source file
 torus.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/torus.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/torus.cc.i
 .PHONY : torus.cc.i
 
 torus.s: torus.cc.s
@@ -365,7 +365,7 @@ torus.s: torus.cc.s
 
 # target to generate assembly for a file
 torus.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/torus.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/build.make _deps/mujoco-build/plugin/sdf/CMakeFiles/sdf.dir/torus.cc.s
 .PHONY : torus.cc.s
 
 # Help Target
@@ -416,7 +416,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include _deps/ccd-build/src/CMakeFiles/ccd.dir/depend.make
@@ -70,74 +70,74 @@ include _deps/ccd-build/src/CMakeFiles/ccd.dir/progress.make
 include _deps/ccd-build/src/CMakeFiles/ccd.dir/flags.make
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/flags.make
-_deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c
+_deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c
 _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o -MF CMakeFiles/ccd.dir/ccd.c.o.d -o CMakeFiles/ccd.dir/ccd.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o -MF CMakeFiles/ccd.dir/ccd.c.o.d -o CMakeFiles/ccd.dir/ccd.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ccd.dir/ccd.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c > CMakeFiles/ccd.dir/ccd.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c > CMakeFiles/ccd.dir/ccd.c.i
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ccd.dir/ccd.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c -o CMakeFiles/ccd.dir/ccd.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/ccd.c -o CMakeFiles/ccd.dir/ccd.c.s
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/flags.make
-_deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c
+_deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c
 _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o -MF CMakeFiles/ccd.dir/mpr.c.o.d -o CMakeFiles/ccd.dir/mpr.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o -MF CMakeFiles/ccd.dir/mpr.c.o.d -o CMakeFiles/ccd.dir/mpr.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ccd.dir/mpr.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c > CMakeFiles/ccd.dir/mpr.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c > CMakeFiles/ccd.dir/mpr.c.i
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ccd.dir/mpr.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c -o CMakeFiles/ccd.dir/mpr.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/mpr.c -o CMakeFiles/ccd.dir/mpr.c.s
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/flags.make
-_deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c
+_deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c
 _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o -MF CMakeFiles/ccd.dir/polytope.c.o.d -o CMakeFiles/ccd.dir/polytope.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o -MF CMakeFiles/ccd.dir/polytope.c.o.d -o CMakeFiles/ccd.dir/polytope.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ccd.dir/polytope.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c > CMakeFiles/ccd.dir/polytope.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c > CMakeFiles/ccd.dir/polytope.c.i
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ccd.dir/polytope.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c -o CMakeFiles/ccd.dir/polytope.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/polytope.c -o CMakeFiles/ccd.dir/polytope.c.s
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/flags.make
-_deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c
+_deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c
 _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o -MF CMakeFiles/ccd.dir/support.c.o.d -o CMakeFiles/ccd.dir/support.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o -MF CMakeFiles/ccd.dir/support.c.o.d -o CMakeFiles/ccd.dir/support.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ccd.dir/support.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c > CMakeFiles/ccd.dir/support.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c > CMakeFiles/ccd.dir/support.c.i
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ccd.dir/support.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c -o CMakeFiles/ccd.dir/support.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/support.c -o CMakeFiles/ccd.dir/support.c.s
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/flags.make
-_deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c
+_deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c
 _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o: _deps/ccd-build/src/CMakeFiles/ccd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o -MF CMakeFiles/ccd.dir/vec3.c.o.d -o CMakeFiles/ccd.dir/vec3.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o -MF CMakeFiles/ccd.dir/vec3.c.o.d -o CMakeFiles/ccd.dir/vec3.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ccd.dir/vec3.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c > CMakeFiles/ccd.dir/vec3.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c > CMakeFiles/ccd.dir/vec3.c.i
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ccd.dir/vec3.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c -o CMakeFiles/ccd.dir/vec3.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src/vec3.c -o CMakeFiles/ccd.dir/vec3.c.s
 
 # Object files for target ccd
 ccd_OBJECTS = \
@@ -157,19 +157,19 @@ lib/libccd.a: _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o
 lib/libccd.a: _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o
 lib/libccd.a: _deps/ccd-build/src/CMakeFiles/ccd.dir/build.make
 lib/libccd.a: _deps/ccd-build/src/CMakeFiles/ccd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library ../../../lib/libccd.a"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && $(CMAKE_COMMAND) -P CMakeFiles/ccd.dir/cmake_clean_target.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ccd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library ../../../lib/libccd.a"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && $(CMAKE_COMMAND) -P CMakeFiles/ccd.dir/cmake_clean_target.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ccd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/ccd-build/src/CMakeFiles/ccd.dir/build: lib/libccd.a
 .PHONY : _deps/ccd-build/src/CMakeFiles/ccd.dir/build
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && $(CMAKE_COMMAND) -P CMakeFiles/ccd.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src && $(CMAKE_COMMAND) -P CMakeFiles/ccd.dir/cmake_clean.cmake
 .PHONY : _deps/ccd-build/src/CMakeFiles/ccd.dir/clean
 
 _deps/ccd-build/src/CMakeFiles/ccd.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src/CMakeFiles/ccd.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src/CMakeFiles/ccd.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ccd-build/src/CMakeFiles/ccd.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

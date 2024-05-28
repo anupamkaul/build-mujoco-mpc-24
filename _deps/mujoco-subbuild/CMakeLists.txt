@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(mujoco-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/google-deepmind/mujoco.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "24eb4c9f092da7dd245a116841a5325a0fb359b9" "GIT_SHALLOW" "FALSE" "PATCH_COMMAND" "UPDATE_DISCONNECTED" "TRUE"
-                    SOURCE_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src"
-                    BINARY_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-build"
+                    SOURCE_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src"
+                    BINARY_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src/test
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-src/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/bug/cmake_install.cmake")
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/core/cmake_install.cmake")
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/gtc/cmake_install.cmake")
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/gtx/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/bug/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/core/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/gtc/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glm_lib-build/test/gtx/cmake_install.cmake")
 
 endif()
 

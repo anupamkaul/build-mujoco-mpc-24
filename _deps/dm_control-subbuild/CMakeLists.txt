@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(dm_control-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/google-deepmind/dm_control.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "774f46182140106e22725914aad3c6299ed91edd"
-                    SOURCE_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/dm_control-src"
-                    BINARY_DIR          "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/dm_control-build"
+                    SOURCE_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/dm_control-src"
+                    BINARY_DIR          "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/dm_control-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include _deps/qhull-build/CMakeFiles/user_egp.dir/depend.make
@@ -70,18 +70,18 @@ include _deps/qhull-build/CMakeFiles/user_egp.dir/progress.make
 include _deps/qhull-build/CMakeFiles/user_egp.dir/flags.make
 
 _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o: _deps/qhull-build/CMakeFiles/user_egp.dir/flags.make
-_deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c
+_deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c
 _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o: _deps/qhull-build/CMakeFiles/user_egp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o -MF CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o.d -o CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o -c /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o -MF CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o.d -o CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o -c /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c
 
 _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c > CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c > CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.i
 
 _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c -o CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/user_eg/user_eg.c -o CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.s
 
 # Object files for target user_egp
 user_egp_OBJECTS = \
@@ -94,18 +94,18 @@ bin/user_egp: _deps/qhull-build/CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o
 bin/user_egp: _deps/qhull-build/CMakeFiles/user_egp.dir/build.make
 bin/user_egp: lib/libqhull_p.8.1-alpha1.dylib
 bin/user_egp: _deps/qhull-build/CMakeFiles/user_egp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../bin/user_egp"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/user_egp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../bin/user_egp"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/user_egp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/qhull-build/CMakeFiles/user_egp.dir/build: bin/user_egp
 .PHONY : _deps/qhull-build/CMakeFiles/user_egp.dir/build
 
 _deps/qhull-build/CMakeFiles/user_egp.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -P CMakeFiles/user_egp.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build && $(CMAKE_COMMAND) -P CMakeFiles/user_egp.dir/cmake_clean.cmake
 .PHONY : _deps/qhull-build/CMakeFiles/user_egp.dir/clean
 
 _deps/qhull-build/CMakeFiles/user_egp.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-build/CMakeFiles/user_egp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-build/CMakeFiles/user_egp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/qhull-build/CMakeFiles/user_egp.dir/depend
 

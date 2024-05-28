@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Utility rule file for ContinuousTest.
 
@@ -67,7 +67,7 @@ include _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/compiler_depend.make
 include _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/progress.make
 
 _deps/tinyxml2-build/CMakeFiles/ContinuousTest:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build && /usr/local/Cellar/cmake/3.28.1/bin/ctest -D ContinuousTest
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build && /usr/local/Cellar/cmake/3.28.1/bin/ctest -D ContinuousTest
 
 ContinuousTest: _deps/tinyxml2-build/CMakeFiles/ContinuousTest
 ContinuousTest: _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/build.make
@@ -78,10 +78,10 @@ _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/build: ContinuousTest
 .PHONY : _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/build
 
 _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousTest.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousTest.dir/cmake_clean.cmake
 .PHONY : _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/clean
 
 _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-src /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-src /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/tinyxml2-build/CMakeFiles/ContinuousTest.dir/depend
 

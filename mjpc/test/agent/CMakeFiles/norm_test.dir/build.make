@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include mjpc/test/agent/CMakeFiles/norm_test.dir/depend.make
@@ -70,18 +70,18 @@ include mjpc/test/agent/CMakeFiles/norm_test.dir/progress.make
 include mjpc/test/agent/CMakeFiles/norm_test.dir/flags.make
 
 mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o: mjpc/test/agent/CMakeFiles/norm_test.dir/flags.make
-mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc
+mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc
 mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o: mjpc/test/agent/CMakeFiles/norm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o -MF CMakeFiles/norm_test.dir/norm_test.cc.o.d -o CMakeFiles/norm_test.dir/norm_test.cc.o -c /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.o -MF CMakeFiles/norm_test.dir/norm_test.cc.o.d -o CMakeFiles/norm_test.dir/norm_test.cc.o -c /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc
 
 mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/norm_test.dir/norm_test.cc.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc > CMakeFiles/norm_test.dir/norm_test.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc > CMakeFiles/norm_test.dir/norm_test.cc.i
 
 mjpc/test/agent/CMakeFiles/norm_test.dir/norm_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/norm_test.dir/norm_test.cc.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc -o CMakeFiles/norm_test.dir/norm_test.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent/norm_test.cc -o CMakeFiles/norm_test.dir/norm_test.cc.s
 
 # Object files for target norm_test
 norm_test_OBJECTS = \
@@ -162,18 +162,18 @@ bin/norm_test: lib/libabsl_log_severity.a
 bin/norm_test: lib/libabsl_spinlock_wait.a
 bin/norm_test: lib/libgtest.a
 bin/norm_test: mjpc/test/agent/CMakeFiles/norm_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/norm_test"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/norm_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/norm_test"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/norm_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 mjpc/test/agent/CMakeFiles/norm_test.dir/build: bin/norm_test
 .PHONY : mjpc/test/agent/CMakeFiles/norm_test.dir/build
 
 mjpc/test/agent/CMakeFiles/norm_test.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent && $(CMAKE_COMMAND) -P CMakeFiles/norm_test.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent && $(CMAKE_COMMAND) -P CMakeFiles/norm_test.dir/cmake_clean.cmake
 .PHONY : mjpc/test/agent/CMakeFiles/norm_test.dir/clean
 
 mjpc/test/agent/CMakeFiles/norm_test.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/test/agent/CMakeFiles/norm_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/test/agent/CMakeFiles/norm_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : mjpc/test/agent/CMakeFiles/norm_test.dir/depend
 

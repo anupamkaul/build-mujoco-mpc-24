@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DMJSTATIC -DmjUSEPLATFORMSIMD
 
-CXX_INCLUDES = -I/Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/../.. -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include -I/Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/gmock
+CXX_INCLUDES = -I/Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/../.. -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include -I/Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/gmock
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections
 

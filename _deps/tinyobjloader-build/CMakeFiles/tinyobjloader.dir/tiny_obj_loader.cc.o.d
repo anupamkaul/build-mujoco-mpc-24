@@ -1,6 +1,6 @@
 _deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o: \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyobjloader-src/tiny_obj_loader.cc \
-  /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/tinyobjloader-src/tiny_obj_loader.h \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyobjloader-src/tiny_obj_loader.cc \
+  /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/tinyobjloader-src/tiny_obj_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp.h \

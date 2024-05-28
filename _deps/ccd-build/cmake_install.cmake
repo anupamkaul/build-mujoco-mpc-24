@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src
+# Install script for directory: /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ccd" TYPE FILE FILES
-    "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/ccd-config.cmake"
-    "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/ccd-config-version.cmake"
+    "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/ccd-config.cmake"
+    "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/ccd-config-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/ccd.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/ccd.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/ccd" TYPE FILE FILES "/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-src/BSD-LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/ccd" TYPE FILE FILES "/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-src/BSD-LICENSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src/cmake_install.cmake")
+  include("/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/ccd-build/src/cmake_install.cmake")
 
 endif()
 

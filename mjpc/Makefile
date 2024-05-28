@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc//CMakeFiles/progress.marks
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc//CMakeFiles/progress.marks
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/clean
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/preinstall
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mjpc/CMakeFiles/threadpool.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/threadpool.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/threadpool.dir/rule
 .PHONY : mjpc/CMakeFiles/threadpool.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ threadpool: mjpc/CMakeFiles/threadpool.dir/rule
 
 # fast build rule for target.
 threadpool/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/build
 .PHONY : threadpool/fast
 
 # Convenience name for target.
 mjpc/CMakeFiles/libmjpc.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/libmjpc.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/libmjpc.dir/rule
 .PHONY : mjpc/CMakeFiles/libmjpc.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ libmjpc: mjpc/CMakeFiles/libmjpc.dir/rule
 
 # fast build rule for target.
 libmjpc/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/build
 .PHONY : libmjpc/fast
 
 # Convenience name for target.
 mjpc/CMakeFiles/mjpc.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/mjpc.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/mjpc.dir/rule
 .PHONY : mjpc/CMakeFiles/mjpc.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ mjpc: mjpc/CMakeFiles/mjpc.dir/rule
 
 # fast build rule for target.
 mjpc/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/build
 .PHONY : mjpc/fast
 
 # Convenience name for target.
 mjpc/CMakeFiles/libtestspeed.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/libtestspeed.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/libtestspeed.dir/rule
 .PHONY : mjpc/CMakeFiles/libtestspeed.dir/rule
 
 # Convenience name for target.
@@ -215,12 +215,12 @@ libtestspeed: mjpc/CMakeFiles/libtestspeed.dir/rule
 
 # fast build rule for target.
 libtestspeed/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/build
 .PHONY : libtestspeed/fast
 
 # Convenience name for target.
 mjpc/CMakeFiles/testspeed.dir/rule:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/testspeed.dir/rule
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mjpc/CMakeFiles/testspeed.dir/rule
 .PHONY : mjpc/CMakeFiles/testspeed.dir/rule
 
 # Convenience name for target.
@@ -229,7 +229,7 @@ testspeed: mjpc/CMakeFiles/testspeed.dir/rule
 
 # fast build rule for target.
 testspeed/fast:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/build
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/build
 .PHONY : testspeed/fast
 
 agent.o: agent.cc.o
@@ -237,7 +237,7 @@ agent.o: agent.cc.o
 
 # target to build an object file
 agent.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/agent.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/agent.cc.o
 .PHONY : agent.cc.o
 
 agent.i: agent.cc.i
@@ -245,7 +245,7 @@ agent.i: agent.cc.i
 
 # target to preprocess a source file
 agent.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/agent.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/agent.cc.i
 .PHONY : agent.cc.i
 
 agent.s: agent.cc.s
@@ -253,7 +253,7 @@ agent.s: agent.cc.s
 
 # target to generate assembly for a file
 agent.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/agent.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/agent.cc.s
 .PHONY : agent.cc.s
 
 app.o: app.cc.o
@@ -261,7 +261,7 @@ app.o: app.cc.o
 
 # target to build an object file
 app.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/app.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/app.cc.o
 .PHONY : app.cc.o
 
 app.i: app.cc.i
@@ -269,7 +269,7 @@ app.i: app.cc.i
 
 # target to preprocess a source file
 app.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/app.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/app.cc.i
 .PHONY : app.cc.i
 
 app.s: app.cc.s
@@ -277,7 +277,7 @@ app.s: app.cc.s
 
 # target to generate assembly for a file
 app.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/app.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/app.cc.s
 .PHONY : app.cc.s
 
 direct/direct.o: direct/direct.cc.o
@@ -285,7 +285,7 @@ direct/direct.o: direct/direct.cc.o
 
 # target to build an object file
 direct/direct.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/direct.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/direct.cc.o
 .PHONY : direct/direct.cc.o
 
 direct/direct.i: direct/direct.cc.i
@@ -293,7 +293,7 @@ direct/direct.i: direct/direct.cc.i
 
 # target to preprocess a source file
 direct/direct.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/direct.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/direct.cc.i
 .PHONY : direct/direct.cc.i
 
 direct/direct.s: direct/direct.cc.s
@@ -301,7 +301,7 @@ direct/direct.s: direct/direct.cc.s
 
 # target to generate assembly for a file
 direct/direct.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/direct.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/direct.cc.s
 .PHONY : direct/direct.cc.s
 
 direct/model_parameters.o: direct/model_parameters.cc.o
@@ -309,7 +309,7 @@ direct/model_parameters.o: direct/model_parameters.cc.o
 
 # target to build an object file
 direct/model_parameters.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.o
 .PHONY : direct/model_parameters.cc.o
 
 direct/model_parameters.i: direct/model_parameters.cc.i
@@ -317,7 +317,7 @@ direct/model_parameters.i: direct/model_parameters.cc.i
 
 # target to preprocess a source file
 direct/model_parameters.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.i
 .PHONY : direct/model_parameters.cc.i
 
 direct/model_parameters.s: direct/model_parameters.cc.s
@@ -325,7 +325,7 @@ direct/model_parameters.s: direct/model_parameters.cc.s
 
 # target to generate assembly for a file
 direct/model_parameters.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/direct/model_parameters.cc.s
 .PHONY : direct/model_parameters.cc.s
 
 estimators/batch.o: estimators/batch.cc.o
@@ -333,7 +333,7 @@ estimators/batch.o: estimators/batch.cc.o
 
 # target to build an object file
 estimators/batch.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/batch.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/batch.cc.o
 .PHONY : estimators/batch.cc.o
 
 estimators/batch.i: estimators/batch.cc.i
@@ -341,7 +341,7 @@ estimators/batch.i: estimators/batch.cc.i
 
 # target to preprocess a source file
 estimators/batch.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/batch.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/batch.cc.i
 .PHONY : estimators/batch.cc.i
 
 estimators/batch.s: estimators/batch.cc.s
@@ -349,7 +349,7 @@ estimators/batch.s: estimators/batch.cc.s
 
 # target to generate assembly for a file
 estimators/batch.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/batch.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/batch.cc.s
 .PHONY : estimators/batch.cc.s
 
 estimators/include.o: estimators/include.cc.o
@@ -357,7 +357,7 @@ estimators/include.o: estimators/include.cc.o
 
 # target to build an object file
 estimators/include.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/include.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/include.cc.o
 .PHONY : estimators/include.cc.o
 
 estimators/include.i: estimators/include.cc.i
@@ -365,7 +365,7 @@ estimators/include.i: estimators/include.cc.i
 
 # target to preprocess a source file
 estimators/include.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/include.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/include.cc.i
 .PHONY : estimators/include.cc.i
 
 estimators/include.s: estimators/include.cc.s
@@ -373,7 +373,7 @@ estimators/include.s: estimators/include.cc.s
 
 # target to generate assembly for a file
 estimators/include.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/include.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/include.cc.s
 .PHONY : estimators/include.cc.s
 
 estimators/kalman.o: estimators/kalman.cc.o
@@ -381,7 +381,7 @@ estimators/kalman.o: estimators/kalman.cc.o
 
 # target to build an object file
 estimators/kalman.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/kalman.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/kalman.cc.o
 .PHONY : estimators/kalman.cc.o
 
 estimators/kalman.i: estimators/kalman.cc.i
@@ -389,7 +389,7 @@ estimators/kalman.i: estimators/kalman.cc.i
 
 # target to preprocess a source file
 estimators/kalman.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/kalman.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/kalman.cc.i
 .PHONY : estimators/kalman.cc.i
 
 estimators/kalman.s: estimators/kalman.cc.s
@@ -397,7 +397,7 @@ estimators/kalman.s: estimators/kalman.cc.s
 
 # target to generate assembly for a file
 estimators/kalman.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/kalman.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/kalman.cc.s
 .PHONY : estimators/kalman.cc.s
 
 estimators/unscented.o: estimators/unscented.cc.o
@@ -405,7 +405,7 @@ estimators/unscented.o: estimators/unscented.cc.o
 
 # target to build an object file
 estimators/unscented.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/unscented.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/unscented.cc.o
 .PHONY : estimators/unscented.cc.o
 
 estimators/unscented.i: estimators/unscented.cc.i
@@ -413,7 +413,7 @@ estimators/unscented.i: estimators/unscented.cc.i
 
 # target to preprocess a source file
 estimators/unscented.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/unscented.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/unscented.cc.i
 .PHONY : estimators/unscented.cc.i
 
 estimators/unscented.s: estimators/unscented.cc.s
@@ -421,7 +421,7 @@ estimators/unscented.s: estimators/unscented.cc.s
 
 # target to generate assembly for a file
 estimators/unscented.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/unscented.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/estimators/unscented.cc.s
 .PHONY : estimators/unscented.cc.s
 
 macos_gui.o: macos_gui.mm.o
@@ -429,7 +429,7 @@ macos_gui.o: macos_gui.mm.o
 
 # target to build an object file
 macos_gui.mm.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/macos_gui.mm.o
 .PHONY : macos_gui.mm.o
 
 main.o: main.cc.o
@@ -437,7 +437,7 @@ main.o: main.cc.o
 
 # target to build an object file
 main.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/main.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -445,7 +445,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/main.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -453,7 +453,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/main.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/mjpc.dir/build.make mjpc/CMakeFiles/mjpc.dir/main.cc.s
 .PHONY : main.cc.s
 
 norm.o: norm.cc.o
@@ -461,7 +461,7 @@ norm.o: norm.cc.o
 
 # target to build an object file
 norm.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/norm.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/norm.cc.o
 .PHONY : norm.cc.o
 
 norm.i: norm.cc.i
@@ -469,7 +469,7 @@ norm.i: norm.cc.i
 
 # target to preprocess a source file
 norm.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/norm.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/norm.cc.i
 .PHONY : norm.cc.i
 
 norm.s: norm.cc.s
@@ -477,7 +477,7 @@ norm.s: norm.cc.s
 
 # target to generate assembly for a file
 norm.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/norm.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/norm.cc.s
 .PHONY : norm.cc.s
 
 planners/cost_derivatives.o: planners/cost_derivatives.cc.o
@@ -485,7 +485,7 @@ planners/cost_derivatives.o: planners/cost_derivatives.cc.o
 
 # target to build an object file
 planners/cost_derivatives.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o
 .PHONY : planners/cost_derivatives.cc.o
 
 planners/cost_derivatives.i: planners/cost_derivatives.cc.i
@@ -493,7 +493,7 @@ planners/cost_derivatives.i: planners/cost_derivatives.cc.i
 
 # target to preprocess a source file
 planners/cost_derivatives.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.i
 .PHONY : planners/cost_derivatives.cc.i
 
 planners/cost_derivatives.s: planners/cost_derivatives.cc.s
@@ -501,7 +501,7 @@ planners/cost_derivatives.s: planners/cost_derivatives.cc.s
 
 # target to generate assembly for a file
 planners/cost_derivatives.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.s
 .PHONY : planners/cost_derivatives.cc.s
 
 planners/cross_entropy/planner.o: planners/cross_entropy/planner.cc.o
@@ -509,7 +509,7 @@ planners/cross_entropy/planner.o: planners/cross_entropy/planner.cc.o
 
 # target to build an object file
 planners/cross_entropy/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cross_entropy/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cross_entropy/planner.cc.o
 .PHONY : planners/cross_entropy/planner.cc.o
 
 planners/cross_entropy/planner.i: planners/cross_entropy/planner.cc.i
@@ -517,7 +517,7 @@ planners/cross_entropy/planner.i: planners/cross_entropy/planner.cc.i
 
 # target to preprocess a source file
 planners/cross_entropy/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cross_entropy/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cross_entropy/planner.cc.i
 .PHONY : planners/cross_entropy/planner.cc.i
 
 planners/cross_entropy/planner.s: planners/cross_entropy/planner.cc.s
@@ -525,15 +525,87 @@ planners/cross_entropy/planner.s: planners/cross_entropy/planner.cc.s
 
 # target to generate assembly for a file
 planners/cross_entropy/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cross_entropy/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/cross_entropy/planner.cc.s
 .PHONY : planners/cross_entropy/planner.cc.s
+
+planners/dummy/backward_pass.o: planners/dummy/backward_pass.cc.o
+.PHONY : planners/dummy/backward_pass.o
+
+# target to build an object file
+planners/dummy/backward_pass.cc.o:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/backward_pass.cc.o
+.PHONY : planners/dummy/backward_pass.cc.o
+
+planners/dummy/backward_pass.i: planners/dummy/backward_pass.cc.i
+.PHONY : planners/dummy/backward_pass.i
+
+# target to preprocess a source file
+planners/dummy/backward_pass.cc.i:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/backward_pass.cc.i
+.PHONY : planners/dummy/backward_pass.cc.i
+
+planners/dummy/backward_pass.s: planners/dummy/backward_pass.cc.s
+.PHONY : planners/dummy/backward_pass.s
+
+# target to generate assembly for a file
+planners/dummy/backward_pass.cc.s:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/backward_pass.cc.s
+.PHONY : planners/dummy/backward_pass.cc.s
+
+planners/dummy/planner.o: planners/dummy/planner.cc.o
+.PHONY : planners/dummy/planner.o
+
+# target to build an object file
+planners/dummy/planner.cc.o:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/planner.cc.o
+.PHONY : planners/dummy/planner.cc.o
+
+planners/dummy/planner.i: planners/dummy/planner.cc.i
+.PHONY : planners/dummy/planner.i
+
+# target to preprocess a source file
+planners/dummy/planner.cc.i:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/planner.cc.i
+.PHONY : planners/dummy/planner.cc.i
+
+planners/dummy/planner.s: planners/dummy/planner.cc.s
+.PHONY : planners/dummy/planner.s
+
+# target to generate assembly for a file
+planners/dummy/planner.cc.s:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/planner.cc.s
+.PHONY : planners/dummy/planner.cc.s
+
+planners/dummy/policy.o: planners/dummy/policy.cc.o
+.PHONY : planners/dummy/policy.o
+
+# target to build an object file
+planners/dummy/policy.cc.o:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/policy.cc.o
+.PHONY : planners/dummy/policy.cc.o
+
+planners/dummy/policy.i: planners/dummy/policy.cc.i
+.PHONY : planners/dummy/policy.i
+
+# target to preprocess a source file
+planners/dummy/policy.cc.i:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/policy.cc.i
+.PHONY : planners/dummy/policy.cc.i
+
+planners/dummy/policy.s: planners/dummy/policy.cc.s
+.PHONY : planners/dummy/policy.s
+
+# target to generate assembly for a file
+planners/dummy/policy.cc.s:
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/dummy/policy.cc.s
+.PHONY : planners/dummy/policy.cc.s
 
 planners/gradient/gradient.o: planners/gradient/gradient.cc.o
 .PHONY : planners/gradient/gradient.o
 
 # target to build an object file
 planners/gradient/gradient.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o
 .PHONY : planners/gradient/gradient.cc.o
 
 planners/gradient/gradient.i: planners/gradient/gradient.cc.i
@@ -541,7 +613,7 @@ planners/gradient/gradient.i: planners/gradient/gradient.cc.i
 
 # target to preprocess a source file
 planners/gradient/gradient.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.i
 .PHONY : planners/gradient/gradient.cc.i
 
 planners/gradient/gradient.s: planners/gradient/gradient.cc.s
@@ -549,7 +621,7 @@ planners/gradient/gradient.s: planners/gradient/gradient.cc.s
 
 # target to generate assembly for a file
 planners/gradient/gradient.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.s
 .PHONY : planners/gradient/gradient.cc.s
 
 planners/gradient/planner.o: planners/gradient/planner.cc.o
@@ -557,7 +629,7 @@ planners/gradient/planner.o: planners/gradient/planner.cc.o
 
 # target to build an object file
 planners/gradient/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o
 .PHONY : planners/gradient/planner.cc.o
 
 planners/gradient/planner.i: planners/gradient/planner.cc.i
@@ -565,7 +637,7 @@ planners/gradient/planner.i: planners/gradient/planner.cc.i
 
 # target to preprocess a source file
 planners/gradient/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.i
 .PHONY : planners/gradient/planner.cc.i
 
 planners/gradient/planner.s: planners/gradient/planner.cc.s
@@ -573,7 +645,7 @@ planners/gradient/planner.s: planners/gradient/planner.cc.s
 
 # target to generate assembly for a file
 planners/gradient/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.s
 .PHONY : planners/gradient/planner.cc.s
 
 planners/gradient/policy.o: planners/gradient/policy.cc.o
@@ -581,7 +653,7 @@ planners/gradient/policy.o: planners/gradient/policy.cc.o
 
 # target to build an object file
 planners/gradient/policy.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o
 .PHONY : planners/gradient/policy.cc.o
 
 planners/gradient/policy.i: planners/gradient/policy.cc.i
@@ -589,7 +661,7 @@ planners/gradient/policy.i: planners/gradient/policy.cc.i
 
 # target to preprocess a source file
 planners/gradient/policy.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.i
 .PHONY : planners/gradient/policy.cc.i
 
 planners/gradient/policy.s: planners/gradient/policy.cc.s
@@ -597,7 +669,7 @@ planners/gradient/policy.s: planners/gradient/policy.cc.s
 
 # target to generate assembly for a file
 planners/gradient/policy.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.s
 .PHONY : planners/gradient/policy.cc.s
 
 planners/gradient/spline_mapping.o: planners/gradient/spline_mapping.cc.o
@@ -605,7 +677,7 @@ planners/gradient/spline_mapping.o: planners/gradient/spline_mapping.cc.o
 
 # target to build an object file
 planners/gradient/spline_mapping.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o
 .PHONY : planners/gradient/spline_mapping.cc.o
 
 planners/gradient/spline_mapping.i: planners/gradient/spline_mapping.cc.i
@@ -613,7 +685,7 @@ planners/gradient/spline_mapping.i: planners/gradient/spline_mapping.cc.i
 
 # target to preprocess a source file
 planners/gradient/spline_mapping.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.i
 .PHONY : planners/gradient/spline_mapping.cc.i
 
 planners/gradient/spline_mapping.s: planners/gradient/spline_mapping.cc.s
@@ -621,7 +693,7 @@ planners/gradient/spline_mapping.s: planners/gradient/spline_mapping.cc.s
 
 # target to generate assembly for a file
 planners/gradient/spline_mapping.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.s
 .PHONY : planners/gradient/spline_mapping.cc.s
 
 planners/ilqg/backward_pass.o: planners/ilqg/backward_pass.cc.o
@@ -629,7 +701,7 @@ planners/ilqg/backward_pass.o: planners/ilqg/backward_pass.cc.o
 
 # target to build an object file
 planners/ilqg/backward_pass.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o
 .PHONY : planners/ilqg/backward_pass.cc.o
 
 planners/ilqg/backward_pass.i: planners/ilqg/backward_pass.cc.i
@@ -637,7 +709,7 @@ planners/ilqg/backward_pass.i: planners/ilqg/backward_pass.cc.i
 
 # target to preprocess a source file
 planners/ilqg/backward_pass.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.i
 .PHONY : planners/ilqg/backward_pass.cc.i
 
 planners/ilqg/backward_pass.s: planners/ilqg/backward_pass.cc.s
@@ -645,7 +717,7 @@ planners/ilqg/backward_pass.s: planners/ilqg/backward_pass.cc.s
 
 # target to generate assembly for a file
 planners/ilqg/backward_pass.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.s
 .PHONY : planners/ilqg/backward_pass.cc.s
 
 planners/ilqg/planner.o: planners/ilqg/planner.cc.o
@@ -653,7 +725,7 @@ planners/ilqg/planner.o: planners/ilqg/planner.cc.o
 
 # target to build an object file
 planners/ilqg/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o
 .PHONY : planners/ilqg/planner.cc.o
 
 planners/ilqg/planner.i: planners/ilqg/planner.cc.i
@@ -661,7 +733,7 @@ planners/ilqg/planner.i: planners/ilqg/planner.cc.i
 
 # target to preprocess a source file
 planners/ilqg/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.i
 .PHONY : planners/ilqg/planner.cc.i
 
 planners/ilqg/planner.s: planners/ilqg/planner.cc.s
@@ -669,7 +741,7 @@ planners/ilqg/planner.s: planners/ilqg/planner.cc.s
 
 # target to generate assembly for a file
 planners/ilqg/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.s
 .PHONY : planners/ilqg/planner.cc.s
 
 planners/ilqg/policy.o: planners/ilqg/policy.cc.o
@@ -677,7 +749,7 @@ planners/ilqg/policy.o: planners/ilqg/policy.cc.o
 
 # target to build an object file
 planners/ilqg/policy.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o
 .PHONY : planners/ilqg/policy.cc.o
 
 planners/ilqg/policy.i: planners/ilqg/policy.cc.i
@@ -685,7 +757,7 @@ planners/ilqg/policy.i: planners/ilqg/policy.cc.i
 
 # target to preprocess a source file
 planners/ilqg/policy.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.i
 .PHONY : planners/ilqg/policy.cc.i
 
 planners/ilqg/policy.s: planners/ilqg/policy.cc.s
@@ -693,7 +765,7 @@ planners/ilqg/policy.s: planners/ilqg/policy.cc.s
 
 # target to generate assembly for a file
 planners/ilqg/policy.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.s
 .PHONY : planners/ilqg/policy.cc.s
 
 planners/ilqs/planner.o: planners/ilqs/planner.cc.o
@@ -701,7 +773,7 @@ planners/ilqs/planner.o: planners/ilqs/planner.cc.o
 
 # target to build an object file
 planners/ilqs/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqs/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqs/planner.cc.o
 .PHONY : planners/ilqs/planner.cc.o
 
 planners/ilqs/planner.i: planners/ilqs/planner.cc.i
@@ -709,7 +781,7 @@ planners/ilqs/planner.i: planners/ilqs/planner.cc.i
 
 # target to preprocess a source file
 planners/ilqs/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqs/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqs/planner.cc.i
 .PHONY : planners/ilqs/planner.cc.i
 
 planners/ilqs/planner.s: planners/ilqs/planner.cc.s
@@ -717,7 +789,7 @@ planners/ilqs/planner.s: planners/ilqs/planner.cc.s
 
 # target to generate assembly for a file
 planners/ilqs/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqs/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/ilqs/planner.cc.s
 .PHONY : planners/ilqs/planner.cc.s
 
 planners/include.o: planners/include.cc.o
@@ -725,7 +797,7 @@ planners/include.o: planners/include.cc.o
 
 # target to build an object file
 planners/include.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/include.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/include.cc.o
 .PHONY : planners/include.cc.o
 
 planners/include.i: planners/include.cc.i
@@ -733,7 +805,7 @@ planners/include.i: planners/include.cc.i
 
 # target to preprocess a source file
 planners/include.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/include.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/include.cc.i
 .PHONY : planners/include.cc.i
 
 planners/include.s: planners/include.cc.s
@@ -741,7 +813,7 @@ planners/include.s: planners/include.cc.s
 
 # target to generate assembly for a file
 planners/include.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/include.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/include.cc.s
 .PHONY : planners/include.cc.s
 
 planners/model_derivatives.o: planners/model_derivatives.cc.o
@@ -749,7 +821,7 @@ planners/model_derivatives.o: planners/model_derivatives.cc.o
 
 # target to build an object file
 planners/model_derivatives.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o
 .PHONY : planners/model_derivatives.cc.o
 
 planners/model_derivatives.i: planners/model_derivatives.cc.i
@@ -757,7 +829,7 @@ planners/model_derivatives.i: planners/model_derivatives.cc.i
 
 # target to preprocess a source file
 planners/model_derivatives.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.i
 .PHONY : planners/model_derivatives.cc.i
 
 planners/model_derivatives.s: planners/model_derivatives.cc.s
@@ -765,7 +837,7 @@ planners/model_derivatives.s: planners/model_derivatives.cc.s
 
 # target to generate assembly for a file
 planners/model_derivatives.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.s
 .PHONY : planners/model_derivatives.cc.s
 
 planners/planner.o: planners/planner.cc.o
@@ -773,7 +845,7 @@ planners/planner.o: planners/planner.cc.o
 
 # target to build an object file
 planners/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/planner.cc.o
 .PHONY : planners/planner.cc.o
 
 planners/planner.i: planners/planner.cc.i
@@ -781,7 +853,7 @@ planners/planner.i: planners/planner.cc.i
 
 # target to preprocess a source file
 planners/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/planner.cc.i
 .PHONY : planners/planner.cc.i
 
 planners/planner.s: planners/planner.cc.s
@@ -789,7 +861,7 @@ planners/planner.s: planners/planner.cc.s
 
 # target to generate assembly for a file
 planners/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/planner.cc.s
 .PHONY : planners/planner.cc.s
 
 planners/robust/robust_planner.o: planners/robust/robust_planner.cc.o
@@ -797,7 +869,7 @@ planners/robust/robust_planner.o: planners/robust/robust_planner.cc.o
 
 # target to build an object file
 planners/robust/robust_planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/robust/robust_planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/robust/robust_planner.cc.o
 .PHONY : planners/robust/robust_planner.cc.o
 
 planners/robust/robust_planner.i: planners/robust/robust_planner.cc.i
@@ -805,7 +877,7 @@ planners/robust/robust_planner.i: planners/robust/robust_planner.cc.i
 
 # target to preprocess a source file
 planners/robust/robust_planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/robust/robust_planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/robust/robust_planner.cc.i
 .PHONY : planners/robust/robust_planner.cc.i
 
 planners/robust/robust_planner.s: planners/robust/robust_planner.cc.s
@@ -813,7 +885,7 @@ planners/robust/robust_planner.s: planners/robust/robust_planner.cc.s
 
 # target to generate assembly for a file
 planners/robust/robust_planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/robust/robust_planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/robust/robust_planner.cc.s
 .PHONY : planners/robust/robust_planner.cc.s
 
 planners/sample_gradient/planner.o: planners/sample_gradient/planner.cc.o
@@ -821,7 +893,7 @@ planners/sample_gradient/planner.o: planners/sample_gradient/planner.cc.o
 
 # target to build an object file
 planners/sample_gradient/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sample_gradient/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sample_gradient/planner.cc.o
 .PHONY : planners/sample_gradient/planner.cc.o
 
 planners/sample_gradient/planner.i: planners/sample_gradient/planner.cc.i
@@ -829,7 +901,7 @@ planners/sample_gradient/planner.i: planners/sample_gradient/planner.cc.i
 
 # target to preprocess a source file
 planners/sample_gradient/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sample_gradient/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sample_gradient/planner.cc.i
 .PHONY : planners/sample_gradient/planner.cc.i
 
 planners/sample_gradient/planner.s: planners/sample_gradient/planner.cc.s
@@ -837,7 +909,7 @@ planners/sample_gradient/planner.s: planners/sample_gradient/planner.cc.s
 
 # target to generate assembly for a file
 planners/sample_gradient/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sample_gradient/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sample_gradient/planner.cc.s
 .PHONY : planners/sample_gradient/planner.cc.s
 
 planners/sampling/planner.o: planners/sampling/planner.cc.o
@@ -845,7 +917,7 @@ planners/sampling/planner.o: planners/sampling/planner.cc.o
 
 # target to build an object file
 planners/sampling/planner.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o
 .PHONY : planners/sampling/planner.cc.o
 
 planners/sampling/planner.i: planners/sampling/planner.cc.i
@@ -853,7 +925,7 @@ planners/sampling/planner.i: planners/sampling/planner.cc.i
 
 # target to preprocess a source file
 planners/sampling/planner.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.i
 .PHONY : planners/sampling/planner.cc.i
 
 planners/sampling/planner.s: planners/sampling/planner.cc.s
@@ -861,7 +933,7 @@ planners/sampling/planner.s: planners/sampling/planner.cc.s
 
 # target to generate assembly for a file
 planners/sampling/planner.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.s
 .PHONY : planners/sampling/planner.cc.s
 
 planners/sampling/policy.o: planners/sampling/policy.cc.o
@@ -869,7 +941,7 @@ planners/sampling/policy.o: planners/sampling/policy.cc.o
 
 # target to build an object file
 planners/sampling/policy.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o
 .PHONY : planners/sampling/policy.cc.o
 
 planners/sampling/policy.i: planners/sampling/policy.cc.i
@@ -877,7 +949,7 @@ planners/sampling/policy.i: planners/sampling/policy.cc.i
 
 # target to preprocess a source file
 planners/sampling/policy.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.i
 .PHONY : planners/sampling/policy.cc.i
 
 planners/sampling/policy.s: planners/sampling/policy.cc.s
@@ -885,7 +957,7 @@ planners/sampling/policy.s: planners/sampling/policy.cc.s
 
 # target to generate assembly for a file
 planners/sampling/policy.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.s
 .PHONY : planners/sampling/policy.cc.s
 
 simulate.o: simulate.cc.o
@@ -893,7 +965,7 @@ simulate.o: simulate.cc.o
 
 # target to build an object file
 simulate.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/simulate.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/simulate.cc.o
 .PHONY : simulate.cc.o
 
 simulate.i: simulate.cc.i
@@ -901,7 +973,7 @@ simulate.i: simulate.cc.i
 
 # target to preprocess a source file
 simulate.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/simulate.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/simulate.cc.i
 .PHONY : simulate.cc.i
 
 simulate.s: simulate.cc.s
@@ -909,7 +981,7 @@ simulate.s: simulate.cc.s
 
 # target to generate assembly for a file
 simulate.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/simulate.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/simulate.cc.s
 .PHONY : simulate.cc.s
 
 spline/spline.o: spline/spline.cc.o
@@ -917,7 +989,7 @@ spline/spline.o: spline/spline.cc.o
 
 # target to build an object file
 spline/spline.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/spline/spline.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/spline/spline.cc.o
 .PHONY : spline/spline.cc.o
 
 spline/spline.i: spline/spline.cc.i
@@ -925,7 +997,7 @@ spline/spline.i: spline/spline.cc.i
 
 # target to preprocess a source file
 spline/spline.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/spline/spline.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/spline/spline.cc.i
 .PHONY : spline/spline.cc.i
 
 spline/spline.s: spline/spline.cc.s
@@ -933,7 +1005,7 @@ spline/spline.s: spline/spline.cc.s
 
 # target to generate assembly for a file
 spline/spline.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/spline/spline.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/spline/spline.cc.s
 .PHONY : spline/spline.cc.s
 
 states/state.o: states/state.cc.o
@@ -941,7 +1013,7 @@ states/state.o: states/state.cc.o
 
 # target to build an object file
 states/state.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/states/state.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/states/state.cc.o
 .PHONY : states/state.cc.o
 
 states/state.i: states/state.cc.i
@@ -949,7 +1021,7 @@ states/state.i: states/state.cc.i
 
 # target to preprocess a source file
 states/state.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/states/state.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/states/state.cc.i
 .PHONY : states/state.cc.i
 
 states/state.s: states/state.cc.s
@@ -957,7 +1029,7 @@ states/state.s: states/state.cc.s
 
 # target to generate assembly for a file
 states/state.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/states/state.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/states/state.cc.s
 .PHONY : states/state.cc.s
 
 task.o: task.cc.o
@@ -965,7 +1037,7 @@ task.o: task.cc.o
 
 # target to build an object file
 task.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/task.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/task.cc.o
 .PHONY : task.cc.o
 
 task.i: task.cc.i
@@ -973,7 +1045,7 @@ task.i: task.cc.i
 
 # target to preprocess a source file
 task.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/task.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/task.cc.i
 .PHONY : task.cc.i
 
 task.s: task.cc.s
@@ -981,7 +1053,7 @@ task.s: task.cc.s
 
 # target to generate assembly for a file
 task.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/task.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/task.cc.s
 .PHONY : task.cc.s
 
 tasks/acrobot/acrobot.o: tasks/acrobot/acrobot.cc.o
@@ -989,7 +1061,7 @@ tasks/acrobot/acrobot.o: tasks/acrobot/acrobot.cc.o
 
 # target to build an object file
 tasks/acrobot/acrobot.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/acrobot/acrobot.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/acrobot/acrobot.cc.o
 .PHONY : tasks/acrobot/acrobot.cc.o
 
 tasks/acrobot/acrobot.i: tasks/acrobot/acrobot.cc.i
@@ -997,7 +1069,7 @@ tasks/acrobot/acrobot.i: tasks/acrobot/acrobot.cc.i
 
 # target to preprocess a source file
 tasks/acrobot/acrobot.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/acrobot/acrobot.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/acrobot/acrobot.cc.i
 .PHONY : tasks/acrobot/acrobot.cc.i
 
 tasks/acrobot/acrobot.s: tasks/acrobot/acrobot.cc.s
@@ -1005,7 +1077,7 @@ tasks/acrobot/acrobot.s: tasks/acrobot/acrobot.cc.s
 
 # target to generate assembly for a file
 tasks/acrobot/acrobot.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/acrobot/acrobot.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/acrobot/acrobot.cc.s
 .PHONY : tasks/acrobot/acrobot.cc.s
 
 tasks/allegro/allegro.o: tasks/allegro/allegro.cc.o
@@ -1013,7 +1085,7 @@ tasks/allegro/allegro.o: tasks/allegro/allegro.cc.o
 
 # target to build an object file
 tasks/allegro/allegro.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/allegro/allegro.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/allegro/allegro.cc.o
 .PHONY : tasks/allegro/allegro.cc.o
 
 tasks/allegro/allegro.i: tasks/allegro/allegro.cc.i
@@ -1021,7 +1093,7 @@ tasks/allegro/allegro.i: tasks/allegro/allegro.cc.i
 
 # target to preprocess a source file
 tasks/allegro/allegro.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/allegro/allegro.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/allegro/allegro.cc.i
 .PHONY : tasks/allegro/allegro.cc.i
 
 tasks/allegro/allegro.s: tasks/allegro/allegro.cc.s
@@ -1029,7 +1101,7 @@ tasks/allegro/allegro.s: tasks/allegro/allegro.cc.s
 
 # target to generate assembly for a file
 tasks/allegro/allegro.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/allegro/allegro.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/allegro/allegro.cc.s
 .PHONY : tasks/allegro/allegro.cc.s
 
 tasks/bimanual/handover/handover.o: tasks/bimanual/handover/handover.cc.o
@@ -1037,7 +1109,7 @@ tasks/bimanual/handover/handover.o: tasks/bimanual/handover/handover.cc.o
 
 # target to build an object file
 tasks/bimanual/handover/handover.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/handover/handover.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/handover/handover.cc.o
 .PHONY : tasks/bimanual/handover/handover.cc.o
 
 tasks/bimanual/handover/handover.i: tasks/bimanual/handover/handover.cc.i
@@ -1045,7 +1117,7 @@ tasks/bimanual/handover/handover.i: tasks/bimanual/handover/handover.cc.i
 
 # target to preprocess a source file
 tasks/bimanual/handover/handover.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/handover/handover.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/handover/handover.cc.i
 .PHONY : tasks/bimanual/handover/handover.cc.i
 
 tasks/bimanual/handover/handover.s: tasks/bimanual/handover/handover.cc.s
@@ -1053,7 +1125,7 @@ tasks/bimanual/handover/handover.s: tasks/bimanual/handover/handover.cc.s
 
 # target to generate assembly for a file
 tasks/bimanual/handover/handover.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/handover/handover.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/handover/handover.cc.s
 .PHONY : tasks/bimanual/handover/handover.cc.s
 
 tasks/bimanual/reorient/reorient.o: tasks/bimanual/reorient/reorient.cc.o
@@ -1061,7 +1133,7 @@ tasks/bimanual/reorient/reorient.o: tasks/bimanual/reorient/reorient.cc.o
 
 # target to build an object file
 tasks/bimanual/reorient/reorient.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/reorient/reorient.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/reorient/reorient.cc.o
 .PHONY : tasks/bimanual/reorient/reorient.cc.o
 
 tasks/bimanual/reorient/reorient.i: tasks/bimanual/reorient/reorient.cc.i
@@ -1069,7 +1141,7 @@ tasks/bimanual/reorient/reorient.i: tasks/bimanual/reorient/reorient.cc.i
 
 # target to preprocess a source file
 tasks/bimanual/reorient/reorient.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/reorient/reorient.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/reorient/reorient.cc.i
 .PHONY : tasks/bimanual/reorient/reorient.cc.i
 
 tasks/bimanual/reorient/reorient.s: tasks/bimanual/reorient/reorient.cc.s
@@ -1077,7 +1149,7 @@ tasks/bimanual/reorient/reorient.s: tasks/bimanual/reorient/reorient.cc.s
 
 # target to generate assembly for a file
 tasks/bimanual/reorient/reorient.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/reorient/reorient.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/bimanual/reorient/reorient.cc.s
 .PHONY : tasks/bimanual/reorient/reorient.cc.s
 
 tasks/cartpole/cartpole.o: tasks/cartpole/cartpole.cc.o
@@ -1085,7 +1157,7 @@ tasks/cartpole/cartpole.o: tasks/cartpole/cartpole.cc.o
 
 # target to build an object file
 tasks/cartpole/cartpole.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.o
 .PHONY : tasks/cartpole/cartpole.cc.o
 
 tasks/cartpole/cartpole.i: tasks/cartpole/cartpole.cc.i
@@ -1093,7 +1165,7 @@ tasks/cartpole/cartpole.i: tasks/cartpole/cartpole.cc.i
 
 # target to preprocess a source file
 tasks/cartpole/cartpole.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.i
 .PHONY : tasks/cartpole/cartpole.cc.i
 
 tasks/cartpole/cartpole.s: tasks/cartpole/cartpole.cc.s
@@ -1101,7 +1173,7 @@ tasks/cartpole/cartpole.s: tasks/cartpole/cartpole.cc.s
 
 # target to generate assembly for a file
 tasks/cartpole/cartpole.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.s
 .PHONY : tasks/cartpole/cartpole.cc.s
 
 tasks/fingers/fingers.o: tasks/fingers/fingers.cc.o
@@ -1109,7 +1181,7 @@ tasks/fingers/fingers.o: tasks/fingers/fingers.cc.o
 
 # target to build an object file
 tasks/fingers/fingers.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/fingers/fingers.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/fingers/fingers.cc.o
 .PHONY : tasks/fingers/fingers.cc.o
 
 tasks/fingers/fingers.i: tasks/fingers/fingers.cc.i
@@ -1117,7 +1189,7 @@ tasks/fingers/fingers.i: tasks/fingers/fingers.cc.i
 
 # target to preprocess a source file
 tasks/fingers/fingers.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/fingers/fingers.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/fingers/fingers.cc.i
 .PHONY : tasks/fingers/fingers.cc.i
 
 tasks/fingers/fingers.s: tasks/fingers/fingers.cc.s
@@ -1125,7 +1197,7 @@ tasks/fingers/fingers.s: tasks/fingers/fingers.cc.s
 
 # target to generate assembly for a file
 tasks/fingers/fingers.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/fingers/fingers.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/fingers/fingers.cc.s
 .PHONY : tasks/fingers/fingers.cc.s
 
 tasks/humanoid/stand/stand.o: tasks/humanoid/stand/stand.cc.o
@@ -1133,7 +1205,7 @@ tasks/humanoid/stand/stand.o: tasks/humanoid/stand/stand.cc.o
 
 # target to build an object file
 tasks/humanoid/stand/stand.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/stand/stand.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/stand/stand.cc.o
 .PHONY : tasks/humanoid/stand/stand.cc.o
 
 tasks/humanoid/stand/stand.i: tasks/humanoid/stand/stand.cc.i
@@ -1141,7 +1213,7 @@ tasks/humanoid/stand/stand.i: tasks/humanoid/stand/stand.cc.i
 
 # target to preprocess a source file
 tasks/humanoid/stand/stand.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/stand/stand.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/stand/stand.cc.i
 .PHONY : tasks/humanoid/stand/stand.cc.i
 
 tasks/humanoid/stand/stand.s: tasks/humanoid/stand/stand.cc.s
@@ -1149,7 +1221,7 @@ tasks/humanoid/stand/stand.s: tasks/humanoid/stand/stand.cc.s
 
 # target to generate assembly for a file
 tasks/humanoid/stand/stand.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/stand/stand.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/stand/stand.cc.s
 .PHONY : tasks/humanoid/stand/stand.cc.s
 
 tasks/humanoid/tracking/tracking.o: tasks/humanoid/tracking/tracking.cc.o
@@ -1157,7 +1229,7 @@ tasks/humanoid/tracking/tracking.o: tasks/humanoid/tracking/tracking.cc.o
 
 # target to build an object file
 tasks/humanoid/tracking/tracking.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/tracking/tracking.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/tracking/tracking.cc.o
 .PHONY : tasks/humanoid/tracking/tracking.cc.o
 
 tasks/humanoid/tracking/tracking.i: tasks/humanoid/tracking/tracking.cc.i
@@ -1165,7 +1237,7 @@ tasks/humanoid/tracking/tracking.i: tasks/humanoid/tracking/tracking.cc.i
 
 # target to preprocess a source file
 tasks/humanoid/tracking/tracking.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/tracking/tracking.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/tracking/tracking.cc.i
 .PHONY : tasks/humanoid/tracking/tracking.cc.i
 
 tasks/humanoid/tracking/tracking.s: tasks/humanoid/tracking/tracking.cc.s
@@ -1173,7 +1245,7 @@ tasks/humanoid/tracking/tracking.s: tasks/humanoid/tracking/tracking.cc.s
 
 # target to generate assembly for a file
 tasks/humanoid/tracking/tracking.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/tracking/tracking.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/tracking/tracking.cc.s
 .PHONY : tasks/humanoid/tracking/tracking.cc.s
 
 tasks/humanoid/walk/walk.o: tasks/humanoid/walk/walk.cc.o
@@ -1181,7 +1253,7 @@ tasks/humanoid/walk/walk.o: tasks/humanoid/walk/walk.cc.o
 
 # target to build an object file
 tasks/humanoid/walk/walk.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/walk/walk.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/walk/walk.cc.o
 .PHONY : tasks/humanoid/walk/walk.cc.o
 
 tasks/humanoid/walk/walk.i: tasks/humanoid/walk/walk.cc.i
@@ -1189,7 +1261,7 @@ tasks/humanoid/walk/walk.i: tasks/humanoid/walk/walk.cc.i
 
 # target to preprocess a source file
 tasks/humanoid/walk/walk.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/walk/walk.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/walk/walk.cc.i
 .PHONY : tasks/humanoid/walk/walk.cc.i
 
 tasks/humanoid/walk/walk.s: tasks/humanoid/walk/walk.cc.s
@@ -1197,7 +1269,7 @@ tasks/humanoid/walk/walk.s: tasks/humanoid/walk/walk.cc.s
 
 # target to generate assembly for a file
 tasks/humanoid/walk/walk.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/walk/walk.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/humanoid/walk/walk.cc.s
 .PHONY : tasks/humanoid/walk/walk.cc.s
 
 tasks/manipulation/common.o: tasks/manipulation/common.cc.o
@@ -1205,7 +1277,7 @@ tasks/manipulation/common.o: tasks/manipulation/common.cc.o
 
 # target to build an object file
 tasks/manipulation/common.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/common.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/common.cc.o
 .PHONY : tasks/manipulation/common.cc.o
 
 tasks/manipulation/common.i: tasks/manipulation/common.cc.i
@@ -1213,7 +1285,7 @@ tasks/manipulation/common.i: tasks/manipulation/common.cc.i
 
 # target to preprocess a source file
 tasks/manipulation/common.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/common.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/common.cc.i
 .PHONY : tasks/manipulation/common.cc.i
 
 tasks/manipulation/common.s: tasks/manipulation/common.cc.s
@@ -1221,7 +1293,7 @@ tasks/manipulation/common.s: tasks/manipulation/common.cc.s
 
 # target to generate assembly for a file
 tasks/manipulation/common.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/common.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/common.cc.s
 .PHONY : tasks/manipulation/common.cc.s
 
 tasks/manipulation/manipulation.o: tasks/manipulation/manipulation.cc.o
@@ -1229,7 +1301,7 @@ tasks/manipulation/manipulation.o: tasks/manipulation/manipulation.cc.o
 
 # target to build an object file
 tasks/manipulation/manipulation.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/manipulation.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/manipulation.cc.o
 .PHONY : tasks/manipulation/manipulation.cc.o
 
 tasks/manipulation/manipulation.i: tasks/manipulation/manipulation.cc.i
@@ -1237,7 +1309,7 @@ tasks/manipulation/manipulation.i: tasks/manipulation/manipulation.cc.i
 
 # target to preprocess a source file
 tasks/manipulation/manipulation.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/manipulation.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/manipulation.cc.i
 .PHONY : tasks/manipulation/manipulation.cc.i
 
 tasks/manipulation/manipulation.s: tasks/manipulation/manipulation.cc.s
@@ -1245,7 +1317,7 @@ tasks/manipulation/manipulation.s: tasks/manipulation/manipulation.cc.s
 
 # target to generate assembly for a file
 tasks/manipulation/manipulation.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/manipulation.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/manipulation/manipulation.cc.s
 .PHONY : tasks/manipulation/manipulation.cc.s
 
 tasks/op3/stand.o: tasks/op3/stand.cc.o
@@ -1253,7 +1325,7 @@ tasks/op3/stand.o: tasks/op3/stand.cc.o
 
 # target to build an object file
 tasks/op3/stand.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/op3/stand.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/op3/stand.cc.o
 .PHONY : tasks/op3/stand.cc.o
 
 tasks/op3/stand.i: tasks/op3/stand.cc.i
@@ -1261,7 +1333,7 @@ tasks/op3/stand.i: tasks/op3/stand.cc.i
 
 # target to preprocess a source file
 tasks/op3/stand.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/op3/stand.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/op3/stand.cc.i
 .PHONY : tasks/op3/stand.cc.i
 
 tasks/op3/stand.s: tasks/op3/stand.cc.s
@@ -1269,7 +1341,7 @@ tasks/op3/stand.s: tasks/op3/stand.cc.s
 
 # target to generate assembly for a file
 tasks/op3/stand.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/op3/stand.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/op3/stand.cc.s
 .PHONY : tasks/op3/stand.cc.s
 
 tasks/panda/panda.o: tasks/panda/panda.cc.o
@@ -1277,7 +1349,7 @@ tasks/panda/panda.o: tasks/panda/panda.cc.o
 
 # target to build an object file
 tasks/panda/panda.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/panda/panda.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/panda/panda.cc.o
 .PHONY : tasks/panda/panda.cc.o
 
 tasks/panda/panda.i: tasks/panda/panda.cc.i
@@ -1285,7 +1357,7 @@ tasks/panda/panda.i: tasks/panda/panda.cc.i
 
 # target to preprocess a source file
 tasks/panda/panda.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/panda/panda.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/panda/panda.cc.i
 .PHONY : tasks/panda/panda.cc.i
 
 tasks/panda/panda.s: tasks/panda/panda.cc.s
@@ -1293,7 +1365,7 @@ tasks/panda/panda.s: tasks/panda/panda.cc.s
 
 # target to generate assembly for a file
 tasks/panda/panda.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/panda/panda.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/panda/panda.cc.s
 .PHONY : tasks/panda/panda.cc.s
 
 tasks/particle/particle.o: tasks/particle/particle.cc.o
@@ -1301,7 +1373,7 @@ tasks/particle/particle.o: tasks/particle/particle.cc.o
 
 # target to build an object file
 tasks/particle/particle.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o
 .PHONY : tasks/particle/particle.cc.o
 
 tasks/particle/particle.i: tasks/particle/particle.cc.i
@@ -1309,7 +1381,7 @@ tasks/particle/particle.i: tasks/particle/particle.cc.i
 
 # target to preprocess a source file
 tasks/particle/particle.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.i
 .PHONY : tasks/particle/particle.cc.i
 
 tasks/particle/particle.s: tasks/particle/particle.cc.s
@@ -1317,7 +1389,7 @@ tasks/particle/particle.s: tasks/particle/particle.cc.s
 
 # target to generate assembly for a file
 tasks/particle/particle.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.s
 .PHONY : tasks/particle/particle.cc.s
 
 tasks/quadrotor/quadrotor.o: tasks/quadrotor/quadrotor.cc.o
@@ -1325,7 +1397,7 @@ tasks/quadrotor/quadrotor.o: tasks/quadrotor/quadrotor.cc.o
 
 # target to build an object file
 tasks/quadrotor/quadrotor.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o
 .PHONY : tasks/quadrotor/quadrotor.cc.o
 
 tasks/quadrotor/quadrotor.i: tasks/quadrotor/quadrotor.cc.i
@@ -1333,7 +1405,7 @@ tasks/quadrotor/quadrotor.i: tasks/quadrotor/quadrotor.cc.i
 
 # target to preprocess a source file
 tasks/quadrotor/quadrotor.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.i
 .PHONY : tasks/quadrotor/quadrotor.cc.i
 
 tasks/quadrotor/quadrotor.s: tasks/quadrotor/quadrotor.cc.s
@@ -1341,7 +1413,7 @@ tasks/quadrotor/quadrotor.s: tasks/quadrotor/quadrotor.cc.s
 
 # target to generate assembly for a file
 tasks/quadrotor/quadrotor.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.s
 .PHONY : tasks/quadrotor/quadrotor.cc.s
 
 tasks/quadruped/quadruped.o: tasks/quadruped/quadruped.cc.o
@@ -1349,7 +1421,7 @@ tasks/quadruped/quadruped.o: tasks/quadruped/quadruped.cc.o
 
 # target to build an object file
 tasks/quadruped/quadruped.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o
 .PHONY : tasks/quadruped/quadruped.cc.o
 
 tasks/quadruped/quadruped.i: tasks/quadruped/quadruped.cc.i
@@ -1357,7 +1429,7 @@ tasks/quadruped/quadruped.i: tasks/quadruped/quadruped.cc.i
 
 # target to preprocess a source file
 tasks/quadruped/quadruped.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.i
 .PHONY : tasks/quadruped/quadruped.cc.i
 
 tasks/quadruped/quadruped.s: tasks/quadruped/quadruped.cc.s
@@ -1365,7 +1437,7 @@ tasks/quadruped/quadruped.s: tasks/quadruped/quadruped.cc.s
 
 # target to generate assembly for a file
 tasks/quadruped/quadruped.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.s
 .PHONY : tasks/quadruped/quadruped.cc.s
 
 tasks/rubik/solve.o: tasks/rubik/solve.cc.o
@@ -1373,7 +1445,7 @@ tasks/rubik/solve.o: tasks/rubik/solve.cc.o
 
 # target to build an object file
 tasks/rubik/solve.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/rubik/solve.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/rubik/solve.cc.o
 .PHONY : tasks/rubik/solve.cc.o
 
 tasks/rubik/solve.i: tasks/rubik/solve.cc.i
@@ -1381,7 +1453,7 @@ tasks/rubik/solve.i: tasks/rubik/solve.cc.i
 
 # target to preprocess a source file
 tasks/rubik/solve.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/rubik/solve.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/rubik/solve.cc.i
 .PHONY : tasks/rubik/solve.cc.i
 
 tasks/rubik/solve.s: tasks/rubik/solve.cc.s
@@ -1389,7 +1461,7 @@ tasks/rubik/solve.s: tasks/rubik/solve.cc.s
 
 # target to generate assembly for a file
 tasks/rubik/solve.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/rubik/solve.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/rubik/solve.cc.s
 .PHONY : tasks/rubik/solve.cc.s
 
 tasks/shadow_reorient/hand.o: tasks/shadow_reorient/hand.cc.o
@@ -1397,7 +1469,7 @@ tasks/shadow_reorient/hand.o: tasks/shadow_reorient/hand.cc.o
 
 # target to build an object file
 tasks/shadow_reorient/hand.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/shadow_reorient/hand.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/shadow_reorient/hand.cc.o
 .PHONY : tasks/shadow_reorient/hand.cc.o
 
 tasks/shadow_reorient/hand.i: tasks/shadow_reorient/hand.cc.i
@@ -1405,7 +1477,7 @@ tasks/shadow_reorient/hand.i: tasks/shadow_reorient/hand.cc.i
 
 # target to preprocess a source file
 tasks/shadow_reorient/hand.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/shadow_reorient/hand.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/shadow_reorient/hand.cc.i
 .PHONY : tasks/shadow_reorient/hand.cc.i
 
 tasks/shadow_reorient/hand.s: tasks/shadow_reorient/hand.cc.s
@@ -1413,7 +1485,7 @@ tasks/shadow_reorient/hand.s: tasks/shadow_reorient/hand.cc.s
 
 # target to generate assembly for a file
 tasks/shadow_reorient/hand.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/shadow_reorient/hand.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/shadow_reorient/hand.cc.s
 .PHONY : tasks/shadow_reorient/hand.cc.s
 
 tasks/swimmer/swimmer.o: tasks/swimmer/swimmer.cc.o
@@ -1421,7 +1493,7 @@ tasks/swimmer/swimmer.o: tasks/swimmer/swimmer.cc.o
 
 # target to build an object file
 tasks/swimmer/swimmer.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o
 .PHONY : tasks/swimmer/swimmer.cc.o
 
 tasks/swimmer/swimmer.i: tasks/swimmer/swimmer.cc.i
@@ -1429,7 +1501,7 @@ tasks/swimmer/swimmer.i: tasks/swimmer/swimmer.cc.i
 
 # target to preprocess a source file
 tasks/swimmer/swimmer.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.i
 .PHONY : tasks/swimmer/swimmer.cc.i
 
 tasks/swimmer/swimmer.s: tasks/swimmer/swimmer.cc.s
@@ -1437,7 +1509,7 @@ tasks/swimmer/swimmer.s: tasks/swimmer/swimmer.cc.s
 
 # target to generate assembly for a file
 tasks/swimmer/swimmer.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.s
 .PHONY : tasks/swimmer/swimmer.cc.s
 
 tasks/tasks.o: tasks/tasks.cc.o
@@ -1445,7 +1517,7 @@ tasks/tasks.o: tasks/tasks.cc.o
 
 # target to build an object file
 tasks/tasks.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/tasks.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/tasks.cc.o
 .PHONY : tasks/tasks.cc.o
 
 tasks/tasks.i: tasks/tasks.cc.i
@@ -1453,7 +1525,7 @@ tasks/tasks.i: tasks/tasks.cc.i
 
 # target to preprocess a source file
 tasks/tasks.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/tasks.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/tasks.cc.i
 .PHONY : tasks/tasks.cc.i
 
 tasks/tasks.s: tasks/tasks.cc.s
@@ -1461,7 +1533,7 @@ tasks/tasks.s: tasks/tasks.cc.s
 
 # target to generate assembly for a file
 tasks/tasks.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/tasks.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/tasks.cc.s
 .PHONY : tasks/tasks.cc.s
 
 tasks/walker/walker.o: tasks/walker/walker.cc.o
@@ -1469,7 +1541,7 @@ tasks/walker/walker.o: tasks/walker/walker.cc.o
 
 # target to build an object file
 tasks/walker/walker.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o
 .PHONY : tasks/walker/walker.cc.o
 
 tasks/walker/walker.i: tasks/walker/walker.cc.i
@@ -1477,7 +1549,7 @@ tasks/walker/walker.i: tasks/walker/walker.cc.i
 
 # target to preprocess a source file
 tasks/walker/walker.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.i
 .PHONY : tasks/walker/walker.cc.i
 
 tasks/walker/walker.s: tasks/walker/walker.cc.s
@@ -1485,7 +1557,7 @@ tasks/walker/walker.s: tasks/walker/walker.cc.s
 
 # target to generate assembly for a file
 tasks/walker/walker.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.s
 .PHONY : tasks/walker/walker.cc.s
 
 testspeed.o: testspeed.cc.o
@@ -1493,7 +1565,7 @@ testspeed.o: testspeed.cc.o
 
 # target to build an object file
 testspeed.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o
 .PHONY : testspeed.cc.o
 
 testspeed.i: testspeed.cc.i
@@ -1501,7 +1573,7 @@ testspeed.i: testspeed.cc.i
 
 # target to preprocess a source file
 testspeed.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.i
 .PHONY : testspeed.cc.i
 
 testspeed.s: testspeed.cc.s
@@ -1509,7 +1581,7 @@ testspeed.s: testspeed.cc.s
 
 # target to generate assembly for a file
 testspeed.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.s
 .PHONY : testspeed.cc.s
 
 testspeed_app.o: testspeed_app.cc.o
@@ -1517,8 +1589,8 @@ testspeed_app.o: testspeed_app.cc.o
 
 # target to build an object file
 testspeed_app.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/testspeed_app.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/testspeed_app.cc.o
 .PHONY : testspeed_app.cc.o
 
 testspeed_app.i: testspeed_app.cc.i
@@ -1526,8 +1598,8 @@ testspeed_app.i: testspeed_app.cc.i
 
 # target to preprocess a source file
 testspeed_app.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.i
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/testspeed_app.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/testspeed_app.cc.i
 .PHONY : testspeed_app.cc.i
 
 testspeed_app.s: testspeed_app.cc.s
@@ -1535,8 +1607,8 @@ testspeed_app.s: testspeed_app.cc.s
 
 # target to generate assembly for a file
 testspeed_app.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.s
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/testspeed_app.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libtestspeed.dir/build.make mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/testspeed.dir/build.make mjpc/CMakeFiles/testspeed.dir/testspeed_app.cc.s
 .PHONY : testspeed_app.cc.s
 
 threadpool.o: threadpool.cc.o
@@ -1544,7 +1616,7 @@ threadpool.o: threadpool.cc.o
 
 # target to build an object file
 threadpool.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/threadpool.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/threadpool.cc.o
 .PHONY : threadpool.cc.o
 
 threadpool.i: threadpool.cc.i
@@ -1552,7 +1624,7 @@ threadpool.i: threadpool.cc.i
 
 # target to preprocess a source file
 threadpool.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/threadpool.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/threadpool.cc.i
 .PHONY : threadpool.cc.i
 
 threadpool.s: threadpool.cc.s
@@ -1560,7 +1632,7 @@ threadpool.s: threadpool.cc.s
 
 # target to generate assembly for a file
 threadpool.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/threadpool.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/threadpool.dir/build.make mjpc/CMakeFiles/threadpool.dir/threadpool.cc.s
 .PHONY : threadpool.cc.s
 
 trajectory.o: trajectory.cc.o
@@ -1568,7 +1640,7 @@ trajectory.o: trajectory.cc.o
 
 # target to build an object file
 trajectory.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/trajectory.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/trajectory.cc.o
 .PHONY : trajectory.cc.o
 
 trajectory.i: trajectory.cc.i
@@ -1576,7 +1648,7 @@ trajectory.i: trajectory.cc.i
 
 # target to preprocess a source file
 trajectory.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/trajectory.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/trajectory.cc.i
 .PHONY : trajectory.cc.i
 
 trajectory.s: trajectory.cc.s
@@ -1584,7 +1656,7 @@ trajectory.s: trajectory.cc.s
 
 # target to generate assembly for a file
 trajectory.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/trajectory.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/trajectory.cc.s
 .PHONY : trajectory.cc.s
 
 utilities.o: utilities.cc.o
@@ -1592,7 +1664,7 @@ utilities.o: utilities.cc.o
 
 # target to build an object file
 utilities.cc.o:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/utilities.cc.o
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/utilities.cc.o
 .PHONY : utilities.cc.o
 
 utilities.i: utilities.cc.i
@@ -1600,7 +1672,7 @@ utilities.i: utilities.cc.i
 
 # target to preprocess a source file
 utilities.cc.i:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/utilities.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/utilities.cc.i
 .PHONY : utilities.cc.i
 
 utilities.s: utilities.cc.s
@@ -1608,7 +1680,7 @@ utilities.s: utilities.cc.s
 
 # target to generate assembly for a file
 utilities.cc.s:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/utilities.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(MAKE) $(MAKESILENT) -f mjpc/CMakeFiles/libmjpc.dir/build.make mjpc/CMakeFiles/libmjpc.dir/utilities.cc.s
 .PHONY : utilities.cc.s
 
 # Help Target
@@ -1665,6 +1737,15 @@ help:
 	@echo "... planners/cross_entropy/planner.o"
 	@echo "... planners/cross_entropy/planner.i"
 	@echo "... planners/cross_entropy/planner.s"
+	@echo "... planners/dummy/backward_pass.o"
+	@echo "... planners/dummy/backward_pass.i"
+	@echo "... planners/dummy/backward_pass.s"
+	@echo "... planners/dummy/planner.o"
+	@echo "... planners/dummy/planner.i"
+	@echo "... planners/dummy/planner.s"
+	@echo "... planners/dummy/policy.o"
+	@echo "... planners/dummy/policy.i"
+	@echo "... planners/dummy/policy.s"
 	@echo "... planners/gradient/gradient.o"
 	@echo "... planners/gradient/gradient.i"
 	@echo "... planners/gradient/gradient.s"
@@ -1811,7 +1892,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -P /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

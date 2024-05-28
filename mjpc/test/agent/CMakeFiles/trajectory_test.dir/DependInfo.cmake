@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/test/agent/trajectory_test.cc" "mjpc/test/agent/CMakeFiles/trajectory_test.dir/trajectory_test.cc.o" "gcc" "mjpc/test/agent/CMakeFiles/trajectory_test.dir/trajectory_test.cc.o.d"
+  "/Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/test/agent/trajectory_test.cc" "mjpc/test/agent/CMakeFiles/trajectory_test.dir/trajectory_test.cc.o" "gcc" "mjpc/test/agent/CMakeFiles/trajectory_test.dir/trajectory_test.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

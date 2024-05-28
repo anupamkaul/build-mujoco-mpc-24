@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/libqhull_r
+C_INCLUDES = -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/marchingcubecpp-src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/qhull-src/src/libqhull_r
 
-C_FLAGS = -O3 -DNDEBUG -std=c11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fPIE -fvisibility=hidden -fdata-sections -ffunction-sections
+C_FLAGS = -O3 -DNDEBUG -std=c11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -fvisibility=hidden -fdata-sections -ffunction-sections
 

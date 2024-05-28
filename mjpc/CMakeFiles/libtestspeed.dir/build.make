@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/mujoco_mpc
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/mujoco_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc
 
 # Include any dependencies generated for this target.
 include mjpc/CMakeFiles/libtestspeed.dir/depend.make
@@ -70,32 +70,32 @@ include mjpc/CMakeFiles/libtestspeed.dir/progress.make
 include mjpc/CMakeFiles/libtestspeed.dir/flags.make
 
 mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o: mjpc/CMakeFiles/libtestspeed.dir/flags.make
-mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc
+mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc
 mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o: mjpc/CMakeFiles/libtestspeed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o -MF CMakeFiles/libtestspeed.dir/testspeed_app.cc.o.d -o CMakeFiles/libtestspeed.dir/testspeed_app.cc.o -c /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o -MF CMakeFiles/libtestspeed.dir/testspeed_app.cc.o.d -o CMakeFiles/libtestspeed.dir/testspeed_app.cc.o -c /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc
 
 mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/libtestspeed.dir/testspeed_app.cc.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc > CMakeFiles/libtestspeed.dir/testspeed_app.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc > CMakeFiles/libtestspeed.dir/testspeed_app.cc.i
 
 mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/libtestspeed.dir/testspeed_app.cc.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc -o CMakeFiles/libtestspeed.dir/testspeed_app.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed_app.cc -o CMakeFiles/libtestspeed.dir/testspeed_app.cc.s
 
 mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o: mjpc/CMakeFiles/libtestspeed.dir/flags.make
-mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o: /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed.cc
+mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o: /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed.cc
 mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o: mjpc/CMakeFiles/libtestspeed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o -MF CMakeFiles/libtestspeed.dir/testspeed.cc.o.d -o CMakeFiles/libtestspeed.dir/testspeed.cc.o -c /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o -MF CMakeFiles/libtestspeed.dir/testspeed.cc.o.d -o CMakeFiles/libtestspeed.dir/testspeed.cc.o -c /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed.cc
 
 mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/libtestspeed.dir/testspeed.cc.i"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed.cc > CMakeFiles/libtestspeed.dir/testspeed.cc.i
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed.cc > CMakeFiles/libtestspeed.dir/testspeed.cc.i
 
 mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/libtestspeed.dir/testspeed.cc.s"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/testspeed.cc -o CMakeFiles/libtestspeed.dir/testspeed.cc.s
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/testspeed.cc -o CMakeFiles/libtestspeed.dir/testspeed.cc.s
 
 # Object files for target libtestspeed
 libtestspeed_OBJECTS = \
@@ -109,19 +109,19 @@ lib/liblibtestspeed.a: mjpc/CMakeFiles/libtestspeed.dir/testspeed_app.cc.o
 lib/liblibtestspeed.a: mjpc/CMakeFiles/libtestspeed.dir/testspeed.cc.o
 lib/liblibtestspeed.a: mjpc/CMakeFiles/libtestspeed.dir/build.make
 lib/liblibtestspeed.a: mjpc/CMakeFiles/libtestspeed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/liblibtestspeed.a"
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -P CMakeFiles/libtestspeed.dir/cmake_clean_target.cmake
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libtestspeed.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/liblibtestspeed.a"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -P CMakeFiles/libtestspeed.dir/cmake_clean_target.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libtestspeed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 mjpc/CMakeFiles/libtestspeed.dir/build: lib/liblibtestspeed.a
 .PHONY : mjpc/CMakeFiles/libtestspeed.dir/build
 
 mjpc/CMakeFiles/libtestspeed.dir/clean:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -P CMakeFiles/libtestspeed.dir/cmake_clean.cmake
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc && $(CMAKE_COMMAND) -P CMakeFiles/libtestspeed.dir/cmake_clean.cmake
 .PHONY : mjpc/CMakeFiles/libtestspeed.dir/clean
 
 mjpc/CMakeFiles/libtestspeed.dir/depend:
-	cd /Users/anupkaul/other_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/other_git/deepmind/mujoco_mpc /Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/CMakeFiles/libtestspeed.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anupkaul/akaul_git/deepmind/mujoco_mpc /Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/CMakeFiles/libtestspeed.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : mjpc/CMakeFiles/libtestspeed.dir/depend
 

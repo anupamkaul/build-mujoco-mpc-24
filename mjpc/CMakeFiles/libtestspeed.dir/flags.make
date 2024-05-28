@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DmjUSEPLATFORMSIMD
 
-CXX_INCLUDES = -I/Users/anupkaul/other_git/deepmind/mujoco_mpc/mjpc/.. -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/mjpc/.. -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/include -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-src -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include -I/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/simulate
+CXX_INCLUDES = -I/Users/anupkaul/akaul_git/deepmind/mujoco_mpc/mjpc/.. -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/abseil-cpp-src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/mjpc/.. -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/glfw3-src/include -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-src -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/include -I/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/mujoco-src/simulate
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mavx -Werror -Wall -Wimplicit-fallthrough -Wunused -Wvla -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mavx -Werror -Wall -Wimplicit-fallthrough -Wunused -Wvla -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas
 

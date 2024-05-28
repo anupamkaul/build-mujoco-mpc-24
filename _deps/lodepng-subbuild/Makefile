@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild
+CMAKE_SOURCE_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild
+CMAKE_BINARY_DIR = /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild/CMakeFiles /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild/CMakeFiles /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/lodepng-subbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

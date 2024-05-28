@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/local/Cellar/cmake/3.28.1/bin/cmake;-P;/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/dm_control-subbuild/dm_control-populate-prefix/tmp/dm_control-populate-gitclone.cmake
-source_dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps/dm_control-src
-work_dir=/Users/anupkaul/other_git/deepmind/build_mujoco_mpc/_deps
+command=/usr/local/Cellar/cmake/3.28.1/bin/cmake;-P;/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/dm_control-subbuild/dm_control-populate-prefix/tmp/dm_control-populate-gitclone.cmake
+source_dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps/dm_control-src
+work_dir=/Users/anupkaul/akaul_git/deepmind/build_mujoco_mpc/_deps
 repository=https://github.com/google-deepmind/dm_control.git
 remote=origin
 init_submodules=TRUE
